@@ -17,11 +17,15 @@ window.JourneyMap = (function () {
   }
 
   function flashcardHtml(journey) {
+    const badge =
+      journey.status === "to-visit"
+        ? '<span class="flashcard-badge">To visit</span>'
+        : "";
     return `
       <article class="flashcard">
         <img src="${escapeHtml(journey.image)}" alt="${escapeHtml(journey.location)}" />
         <div class="flashcard-body">
-          <h3>${escapeHtml(journey.location)}</h3>
+          <h3>${escapeHtml(journey.location)}${badge}</h3>
           <time datetime="${escapeHtml(String(journey.year))}">${escapeHtml(journey.date)}</time>
           <p>${escapeHtml(journey.story)}</p>
         </div>
@@ -59,7 +63,7 @@ window.JourneyMap = (function () {
         position: { lat: journey.latitude, lng: journey.longitude },
         title: journey.location,
         icon: {
-          url: "assets/icons/pin.svg",
+          url: journey.status === "to-visit" ? "assets/icons/pin-planned.svg" : "assets/icons/pin.svg",
           scaledSize: new google.maps.Size(28, 36),
           anchor: new google.maps.Point(14, 36)
         }

@@ -6,7 +6,10 @@
 
   const countrySelect = document.getElementById("filter-country");
   const yearSelect = document.getElementById("filter-year");
+  const statusSelect = document.getElementById("filter-status");
   const resetBtn = document.getElementById("filter-reset");
+
+  const STATUS_LABELS = { visited: "Visited", "to-visit": "To visit" };
   const resultCount = document.getElementById("result-count");
   const countriesVisited = document.getElementById("stat-countries");
   const journeysRecorded = document.getElementById("stat-journeys");
@@ -39,11 +42,13 @@
   function filteredJourneys() {
     const country = countrySelect.value;
     const year = yearSelect.value;
+    const status = statusSelect.value;
 
     return journeys.filter((journey) => {
       const countryOk = country === "all" || journey.country === country;
       const yearOk = year === "all" || String(journey.year) === year;
-      return countryOk && yearOk;
+      const statusOk = status === "all" || journey.status === status;
+      return countryOk && yearOk && statusOk;
     });
   }
 
@@ -79,15 +84,33 @@
     }
   }
 
+  function fillStatusSelect() {
+    statusSelect.innerHTML = "";
+    const all = document.createElement("option");
+    all.value = "all";
+    all.textContent = "All places";
+    statusSelect.appendChild(all);
+
+    Object.entries(STATUS_LABELS).forEach(([value, label]) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = label;
+      statusSelect.appendChild(option);
+    });
+  }
+
   function initFilters() {
     fillSelect(countrySelect, uniqueSorted(journeys.map((j) => j.country)), "All countries");
     fillSelect(yearSelect, uniqueSorted(journeys.map((j) => j.year)), "All years");
+    fillStatusSelect();
 
     countrySelect.addEventListener("change", applyFilters);
     yearSelect.addEventListener("change", applyFilters);
+    statusSelect.addEventListener("change", applyFilters);
     resetBtn.addEventListener("click", () => {
       countrySelect.value = "all";
       yearSelect.value = "all";
+      statusSelect.value = "all";
       applyFilters();
     });
   }

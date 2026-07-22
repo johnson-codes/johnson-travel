@@ -11,66 +11,72 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">Johnson’s <span>Journey</span></div>
-    <p class="header-note">A personal travel album</p>
+  <header class="masthead">
+    <div class="content-rail masthead-inner">
+      <div class="masthead-brand">
+        <h1 class="brand">Johnson’s <span>Journey</span></h1>
+      </div>
+      <dl class="stats" aria-label="Travel statistics">
+        <div class="stat">
+          <dt>Countries</dt>
+          <dd id="stat-countries">0</dd>
+        </div>
+        <div class="stat">
+          <dt>Journeys</dt>
+          <dd id="stat-journeys">0</dd>
+        </div>
+        <div class="stat">
+          <dt>Years</dt>
+          <dd id="stat-years">0</dd>
+        </div>
+      </dl>
+    </div>
   </header>
 
-  <section class="intro" aria-labelledby="intro-title">
-    <div class="intro-copy">
-      <h1 id="intro-title">Places I’ve been, stories I kept.</h1>
-      <p class="lede">
-        A map of my trips for friends and family — click a pin to see a photo and a short story.
-      </p>
-      <div class="stats" aria-label="Travel statistics">
-        <div class="stat">
-          <strong id="stat-countries">0</strong>
-          <span>countries</span>
-        </div>
-        <div class="stat">
-          <strong id="stat-journeys">0</strong>
-          <span>journeys</span>
-        </div>
-        <div class="stat">
-          <strong id="stat-years">0</strong>
-          <span>years</span>
-        </div>
+  <main class="map-stage">
+    <div class="content-rail">
+      <div class="map-card">
+        <section class="toolbar" aria-label="Filter journeys">
+          <div class="toolbar-filters">
+            <div class="field">
+              <label for="filter-country">Country</label>
+              <select id="filter-country"></select>
+            </div>
+            <div class="field">
+              <label for="filter-year">Year</label>
+              <select id="filter-year"></select>
+            </div>
+            <div class="field">
+              <label for="filter-status">Status</label>
+              <select id="filter-status"></select>
+            </div>
+            <button type="button" class="reset-btn" id="filter-reset">Reset</button>
+          </div>
+          <p class="result-count" id="result-count" aria-live="polite">0 journeys shown</p>
+        </section>
+
+        <section class="map-section" aria-label="Interactive journey map">
+          <div class="map-shell">
+            <div id="map" role="application" aria-label="World map of journeys"></div>
+            <div class="map-fallback" id="map-fallback">
+              <div class="fallback-card">
+                <p class="fallback-kicker">Almost there</p>
+                <h2>Add a Google Maps API key to unlock the map</h2>
+                <p data-fallback-message>
+                  Put your key in <code>js/config.js</code>, restrict it by domain, then refresh.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
-  </section>
-
-  <div class="map-stage">
-    <section class="controls" aria-label="Filter journeys">
-      <div class="field">
-        <label for="filter-country">Country</label>
-        <select id="filter-country"></select>
-      </div>
-      <div class="field">
-        <label for="filter-year">Year</label>
-        <select id="filter-year"></select>
-      </div>
-      <button type="button" class="reset-btn" id="filter-reset">Reset filters</button>
-      <p class="result-count" id="result-count" aria-live="polite">0 journeys shown</p>
-    </section>
-
-    <section class="map-section" aria-label="Interactive journey map">
-      <div class="map-shell">
-        <div id="map" role="application" aria-label="World map of journeys"></div>
-        <div class="map-fallback" id="map-fallback">
-          <div>
-            <h2>Map needs a Google Maps API key</h2>
-            <p data-fallback-message>
-              Add your key in <code>js/config.js</code>, then refresh.
-              Restrict it to your GitHub Pages domain in Google Cloud Console.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </div>
+  </main>
 
   <footer class="site-footer">
-    <p>Johnson’s Journey — planned trips, kept stories.</p>
+    <div class="content-rail">
+      <p>Johnson’s Journey</p>
+    </div>
   </footer>
 
   <script src="js/config.js"></script>
