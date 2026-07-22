@@ -662,5 +662,17 @@ window.JOURNEYS = [
     longitude: -122.4194,
     image: "images/journeys/sanfrancisco.svg",
     story: "Biking across the Golden Gate Bridge, cable cars over the hills, and sourdough at Fisherman's Wharf."
+  },
+  {
+    id: 55,
+    location: "Toronto, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 43.6532,
+    longitude: -79.3832,
+    image: "images/journeys/toronto.svg",
+    story: "The view from the CN Tower, Kensington Market snacks, and a ferry ride to the Toronto Islands."
   }
 ];
