@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e7e2cf"/>
+  <path d="M0 430 L160 300 L300 430 Z" fill="#7a8f6b"/>
+  <path d="M220 430 L400 250 L580 430 Z" fill="#5c7350"/>
+  <path d="M480 430 L640 320 L800 430 Z" fill="#7a8f6b"/>
+  <rect y="430" width="800" height="170" fill="#a8b892"/>
+  <path d="M0 470 Q260 450 520 470 T800 465" stroke="#8ba076" stroke-width="8" fill="none"/>
+  <circle cx="150" cy="120" r="36" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Zhumadian</text>
+</svg>

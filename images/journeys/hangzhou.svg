@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dbe8dd"/>
+  <rect y="380" width="800" height="220" fill="#8fb7ad"/>
+  <path d="M0 380 Q200 340 400 375 T800 370 V600 H0 Z" fill="#6fa094" opacity="0.85"/>
+  <path d="M560 340 L600 200 L640 340 Z" fill="#4a6a5e"/>
+  <rect x="588" y="200" width="24" height="30" fill="#4a6a5e"/>
+  <path d="M552 260 H648 M560 300 H640" stroke="#3a564c" stroke-width="8"/>
+  <circle cx="170" cy="120" r="36" fill="#f0c35a" opacity="0.8"/>
+  <path d="M120 420 Q250 400 380 420" stroke="#3a564c" stroke-width="6" fill="none" opacity="0.6"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Hangzhou</text>
+</svg>

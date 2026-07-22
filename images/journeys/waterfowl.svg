@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#b0cdd8 "/>
+  <polygon points="0,340 170,150 330,320 470,120 640,300 800,190 800,600 0,600" fill="#5c7568"/>
+  <rect y="400" width="800" height="200" fill="#4899a8"/>
+  <circle cx="680" cy="100" r="32" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="34">Waterfowl Lakes</text>
+</svg>

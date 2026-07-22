@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#cfe3d8"/>
+  <rect y="400" width="800" height="200" fill="#7fa7c9"/>
+  <path d="M0 400 Q200 380 400 400 T800 395 V600 H0 Z" fill="#5f8fb5" opacity="0.85"/>
+  <rect x="150" y="230" width="70" height="170" fill="#8a9aa8"/>
+  <rect x="250" y="180" width="90" height="220" fill="#a3b2bd"/>
+  <rect x="370" y="260" width="60" height="140" fill="#8a9aa8"/>
+  <path d="M470 400 Q560 320 650 400" stroke="#4a6a5e" stroke-width="10" fill="none"/>
+  <circle cx="660" cy="120" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Luohe</text>
+</svg>

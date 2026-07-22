@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <rect width="800" height="320" fill="#6ba4d8"/>
-  <rect y="320" width="800" height="280" fill="#e8d7b5"/>
-  <rect x="120" y="240" width="160" height="120" fill="#f7f8fa"/>
-  <rect x="320" y="200" width="140" height="160" fill="#f7f8fa"/>
-  <rect x="500" y="250" width="180" height="110" fill="#f7f8fa"/>
-  <circle cx="620" cy="90" r="36" fill="#f0c35a"/>
-  <text x="40" y="560" fill="#1c2421" font-family="Georgia, serif" font-size="36">Santorini</text>
-</svg>

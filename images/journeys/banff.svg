@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
-  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7eb6c9"/><stop offset="55%" stop-color="#4f7d6a"/><stop offset="100%" stop-color="#2f4a3f"/></linearGradient></defs>
-  <rect width="800" height="600" fill="url(#g)"/>
-  <polygon points="0,420 180,220 320,390 480,160 640,360 800,250 800,600 0,600" fill="#1e3f36" opacity="0.55"/>
-  <text x="40" y="560" fill="#f6f3ec" font-family="Georgia, serif" font-size="36">Banff</text>
-</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#7ec8e3"/>
+  <rect y="360" width="800" height="240" fill="#2e7fa8"/>
+  <path d="M0 360 Q200 300 400 350 T800 340 V600 H0 Z" fill="#3f97bf" opacity="0.8"/>
+  <path d="M0 470 Q260 430 520 470 T800 460 V600 H0 Z" fill="#f2ddb0"/>
+  <circle cx="650" cy="110" r="40" fill="#f0c35a" opacity="0.95"/>
+  <path d="M180 470 L180 360 M180 360 Q240 380 180 400" stroke="#2f6b3c" stroke-width="10" fill="none"/>
+  <ellipse cx="180" cy="352" rx="52" ry="22" fill="#3f8c4f"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Xiachuan Island</text>
+</svg>
