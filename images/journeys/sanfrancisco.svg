@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe8ee"/>
+  <rect y="420" width="800" height="180" fill="#4e7d9c"/>
+  <path d="M0 420 Q260 400 520 420 T800 415 V600 H0 Z" fill="#436e8b" opacity="0.9"/>
+  <rect x="180" y="180" width="22" height="240" fill="#c1543a"/>
+  <rect x="560" y="180" width="22" height="240" fill="#c1543a"/>
+  <path d="M60 320 Q191 200 380 320 Q571 200 740 320" stroke="#c1543a" stroke-width="12" fill="none"/>
+  <rect x="60" y="320" width="680" height="16" fill="#c1543a"/>
+  <path d="M0 240 Q200 200 420 250 T800 240" stroke="#ffffff" stroke-width="40" fill="none" opacity="0.55"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">San Francisco</text>
+</svg>

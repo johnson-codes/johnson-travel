@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f7d9a8"/>
+  <circle cx="400" cy="330" r="90" fill="#e8895a"/>
+  <rect y="380" width="800" height="220" fill="#3f7ba8"/>
+  <path d="M0 380 Q200 360 400 380 T800 375 V600 H0 Z" fill="#356a92" opacity="0.9"/>
+  <path d="M120 380 L120 300 M120 300 Q90 320 120 335 Q150 320 120 300" stroke="#4a6a3f" stroke-width="10" fill="none"/>
+  <path d="M660 380 L660 290 M660 290 Q630 312 660 328 Q690 312 660 290" stroke="#4a6a3f" stroke-width="10" fill="none"/>
+  <rect x="250" y="470" width="300" height="14" rx="7" fill="#c9a15e"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Los Angeles</text>
+</svg>

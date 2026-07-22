@@ -626,5 +626,41 @@ window.JOURNEYS = [
     longitude: -71.208,
     image: "images/journeys/quebeccity.svg",
     story: "Cobblestone streets of Old Quebec, the Château Frontenac on the skyline, and poutine done properly."
+  },
+  {
+    id: 52,
+    location: "Las Vegas, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 36.1699,
+    longitude: -115.1398,
+    image: "images/journeys/lasvegas.svg",
+    story: "The Strip lit up at night, the Bellagio fountains, and a day trip out to the Grand Canyon."
+  },
+  {
+    id: 53,
+    location: "Los Angeles, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 34.0522,
+    longitude: -118.2437,
+    image: "images/journeys/losangeles.svg",
+    story: "Sunset at Santa Monica Pier, a Hollywood Hills hike to the sign, and tacos from a different truck every day."
+  },
+  {
+    id: 54,
+    location: "San Francisco, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 37.7749,
+    longitude: -122.4194,
+    image: "images/journeys/sanfrancisco.svg",
+    story: "Biking across the Golden Gate Bridge, cable cars over the hills, and sourdough at Fisherman's Wharf."
   }
 ];
