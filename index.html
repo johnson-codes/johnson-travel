@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Johnson Travel</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0f2a2e;
+      --foam: #f3f7f4;
+      --sea: #1a6b6a;
+      --sea-deep: #0d3d3c;
+      --sand: #d4c4a8;
+      --accent: #c45c26;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Outfit", sans-serif;
+      color: var(--ink);
+      background: var(--foam);
+      line-height: 1.5;
+    }
+
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: clamp(1.5rem, 4vw, 3rem);
+      padding-bottom: clamp(3rem, 8vh, 5rem);
+      color: var(--foam);
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -2;
+      background:
+        linear-gradient(
+          180deg,
+          rgba(13, 61, 60, 0.25) 0%,
+          rgba(15, 42, 46, 0.55) 45%,
+          rgba(15, 42, 46, 0.88) 100%
+        ),
+        url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2400&q=80")
+          center / cover no-repeat;
+      animation: drift 28s ease-in-out infinite alternate;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      background:
+        radial-gradient(ellipse 80% 50% at 20% 10%, rgba(212, 196, 168, 0.18), transparent 55%),
+        linear-gradient(115deg, transparent 40%, rgba(26, 107, 106, 0.2) 100%);
+      pointer-events: none;
+    }
+
+    @keyframes drift {
+      from { transform: scale(1.05) translate(0, 0); }
+      to { transform: scale(1.12) translate(-1.5%, 1%); }
+    }
+
+    @keyframes rise {
+      from {
+        opacity: 0;
+        transform: translateY(1.25rem);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .brand {
+      position: absolute;
+      top: clamp(1.5rem, 4vw, 2.5rem);
+      left: clamp(1.5rem, 4vw, 3rem);
+      font-family: "Fraunces", serif;
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      animation: rise 0.9s ease both;
+    }
+
+    .hero-copy {
+      max-width: 36rem;
+      animation: rise 1s ease 0.15s both;
+    }
+
+    .hero-copy h1 {
+      font-family: "Fraunces", serif;
+      font-size: clamp(2.4rem, 7vw, 4.5rem);
+      font-weight: 500;
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+      margin-bottom: 1rem;
+    }
+
+    .hero-copy p {
+      font-size: clamp(1.05rem, 2.2vw, 1.25rem);
+      max-width: 28rem;
+      opacity: 0.92;
+      margin-bottom: 1.75rem;
+    }
+
+    .cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.65rem;
+      background: var(--accent);
+      color: var(--foam);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.9rem 1.4rem;
+      border-radius: 0.35rem;
+      transition: transform 0.25s ease, background 0.25s ease;
+      animation: rise 1s ease 0.3s both;
+    }
+
+    .cta:hover {
+      background: #a84b1d;
+      transform: translateY(-2px);
+    }
+
+    .cta svg {
+      width: 1.1rem;
+      height: 1.1rem;
+      transition: transform 0.25s ease;
+    }
+
+    .cta:hover svg {
+      transform: translateX(3px);
+    }
+
+    .section {
+      padding: clamp(4rem, 10vw, 7rem) clamp(1.5rem, 4vw, 3rem);
+      max-width: 68rem;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-family: "Fraunces", serif;
+      font-size: clamp(2rem, 4vw, 2.75rem);
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.75rem;
+      color: var(--sea-deep);
+    }
+
+    .section > p {
+      font-size: 1.1rem;
+      max-width: 34rem;
+      color: #3a5558;
+      margin-bottom: 2.5rem;
+    }
+
+    .destinations {
+      display: grid;
+      gap: 2.5rem;
+    }
+
+    @media (min-width: 720px) {
+      .destinations {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem;
+      }
+    }
+
+    .destination figure {
+      margin: 0;
+      overflow: hidden;
+      border-radius: 0.25rem;
+    }
+
+    .destination img {
+      width: 100%;
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.7s ease;
+    }
+
+    .destination:hover img {
+      transform: scale(1.04);
+    }
+
+    .destination h3 {
+      font-family: "Fraunces", serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 1rem 0 0.35rem;
+      color: var(--sea-deep);
+    }
+
+    .destination p {
+      color: #3a5558;
+      max-width: 28rem;
+    }
+
+    footer {
+      padding: 2rem clamp(1.5rem, 4vw, 3rem) 3rem;
+      border-top: 1px solid rgba(15, 42, 46, 0.12);
+      color: #3a5558;
+      font-size: 0.95rem;
+    }
+
+    footer strong {
+      font-family: "Fraunces", serif;
+      color: var(--sea-deep);
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="brand">Johnson Travel</div>
+    <div class="hero-copy">
+      <h1>Trips that feel like a deep breath.</h1>
+      <p>Curated escapes for people who travel to notice more — coastlines, quiet towns, and routes worth taking slowly.</p>
+      <a class="cta" href="#destinations">
+        Explore destinations
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M5 12h14M13 6l6 6-6 6" />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="destinations">
+      <h2>Where we send people next</h2>
+      <p>A few places we keep coming back to — chosen for light, pace, and the kind of days you remember.</p>
+      <div class="destinations">
+        <article class="destination">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1200&q=80" alt="Temple roofs and streets in Kyoto" />
+          </figure>
+          <h3>Kyoto mornings</h3>
+          <p>Temple walks before the crowds, tea houses that still feel local, and neighborhoods best seen on foot.</p>
+        </article>
+        <article class="destination">
+          <figure>
+            <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?auto=format&fit=crop&w=1200&q=80" alt="Cliffside village overlooking the Aegean Sea" />
+          </figure>
+          <h3>Aegean edges</h3>
+          <p>Whitewashed villages, ferry hops between islands, and long dinners that stretch into the blue hour.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><strong>Johnson Travel</strong> — planned journeys, unhurried days.</p>
+  </footer>
+</body>
+</html>
