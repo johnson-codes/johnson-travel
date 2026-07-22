@@ -1,0 +1,9 @@
+# Machine / OS noise
+.DS_Store
+*.log
+.env
+.env.*
+
+# Uncomment the next line if you prefer to keep real API keys off git
+# (you will then need another way to publish js/config.js to GitHub Pages)
+# js/config.js

@@ -1,0 +1,364 @@
+/* Johnson's Journey — styles */
+
+:root {
+  --ink: #1c2421;
+  --muted: #5a6560;
+  --paper: #f6f3ec;
+  --paper-2: #ebe6db;
+  --line: rgba(28, 36, 33, 0.12);
+  --forest: #2f5d50;
+  --forest-deep: #1e3f36;
+  --sun: #e08a3c;
+  --card: #fffdf8;
+  --shadow: 0 12px 32px rgba(28, 36, 33, 0.14);
+  --radius: 14px;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Nunito Sans", system-ui, sans-serif;
+  --page-pad: clamp(1rem, 3vw, 1.75rem);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-body);
+  color: var(--ink);
+  background:
+    radial-gradient(ellipse 90% 50% at 10% -10%, rgba(47, 93, 80, 0.12), transparent 55%),
+    radial-gradient(ellipse 70% 40% at 100% 0%, rgba(224, 138, 60, 0.1), transparent 50%),
+    var(--paper);
+  line-height: 1.55;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button,
+select {
+  font: inherit;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  text-align: center;
+  padding: 0.85rem var(--page-pad);
+  flex-shrink: 0;
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 650;
+  letter-spacing: -0.02em;
+  color: var(--forest-deep);
+}
+
+.brand span {
+  color: var(--sun);
+}
+
+.header-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.intro {
+  padding: 0.15rem var(--page-pad) 0.85rem;
+  max-width: 52rem;
+  animation: rise 0.7s ease both;
+  flex-shrink: 0;
+}
+
+.intro-copy h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.7rem, 3.5vw, 2.35rem);
+  font-weight: 600;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.45rem;
+  color: var(--forest-deep);
+}
+
+.intro-copy .lede {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 36rem;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem 1.35rem;
+  margin-top: 0.85rem;
+}
+
+.stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  line-height: 1;
+  color: var(--forest);
+}
+
+.stat span {
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
+.map-stage {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  animation: rise 0.7s ease 0.08s both;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: end;
+  padding: 0.35rem var(--page-pad) 0.75rem;
+  flex-shrink: 0;
+}
+
+.field {
+  display: grid;
+  gap: 0.3rem;
+  min-width: min(100%, 10.5rem);
+}
+
+.field label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.field select {
+  appearance: none;
+  background: var(--card)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%235a6560' d='M1 1l5 5 5-5'/%3E%3C/svg%3E")
+    right 0.9rem center / 12px no-repeat;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 0.65rem 2.2rem 0.65rem 0.85rem;
+  color: var(--ink);
+  min-height: 2.6rem;
+}
+
+.field select:focus {
+  outline: 2px solid rgba(47, 93, 80, 0.35);
+  outline-offset: 1px;
+}
+
+.reset-btn {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--forest-deep);
+  border-radius: 10px;
+  padding: 0.65rem 1rem;
+  min-height: 2.6rem;
+  cursor: pointer;
+  font-weight: 650;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.reset-btn:hover {
+  background: rgba(47, 93, 80, 0.08);
+  border-color: rgba(47, 93, 80, 0.28);
+}
+
+.result-count {
+  margin: 0 0 0.45rem auto;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.map-section {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: min(72vh, 900px);
+  padding: 0;
+}
+
+.map-shell {
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: inherit;
+  overflow: hidden;
+  border-block: 1px solid var(--line);
+  background:
+    linear-gradient(180deg, rgba(47, 93, 80, 0.06), transparent 30%),
+    var(--paper-2);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  min-height: inherit;
+}
+
+.map-fallback {
+  display: none;
+  place-items: center;
+  text-align: center;
+  padding: 2rem var(--page-pad);
+  position: absolute;
+  inset: 0;
+  color: var(--muted);
+  background:
+    radial-gradient(circle at 30% 40%, rgba(47, 93, 80, 0.1), transparent 45%),
+    radial-gradient(circle at 70% 60%, rgba(224, 138, 60, 0.1), transparent 40%),
+    var(--paper-2);
+}
+
+.map-fallback.is-visible {
+  display: grid;
+}
+
+.map-fallback h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.85rem);
+  color: var(--forest-deep);
+  margin: 0 0 0.5rem;
+}
+
+.map-fallback p {
+  margin: 0;
+  max-width: 28rem;
+}
+
+.map-fallback code {
+  font-size: 0.9em;
+  background: rgba(28, 36, 33, 0.06);
+  padding: 0.1rem 0.35rem;
+  border-radius: 4px;
+}
+
+/* Google Maps InfoWindow flashcard */
+.gm-style .gm-style-iw-c {
+  padding: 0 !important;
+  border-radius: 12px !important;
+  box-shadow: var(--shadow) !important;
+}
+
+.gm-style .gm-style-iw-d {
+  overflow: hidden !important;
+}
+
+.gm-style .gm-style-iw-tc::after {
+  background: var(--card) !important;
+}
+
+.flashcard {
+  width: min(280px, 78vw);
+  background: var(--card);
+  color: var(--ink);
+}
+
+.flashcard img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+}
+
+.flashcard-body {
+  padding: 0.85rem 0.95rem 1rem;
+}
+
+.flashcard h3 {
+  margin: 0 0 0.2rem;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  line-height: 1.2;
+  color: var(--forest-deep);
+}
+
+.flashcard time {
+  display: block;
+  font-size: 0.82rem;
+  color: var(--sun);
+  font-weight: 700;
+  margin-bottom: 0.45rem;
+}
+
+.flashcard p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.site-footer {
+  flex-shrink: 0;
+  padding: 0.85rem var(--page-pad);
+  color: var(--muted);
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .result-count {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .controls {
+    align-items: stretch;
+  }
+
+  .field {
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+
+  .reset-btn {
+    width: 100%;
+  }
+
+  .map-section {
+    min-height: min(62vh, 720px);
+  }
+}
+
+@media (min-width: 900px) {
+  .map-section {
+    min-height: calc(100dvh - 13.5rem);
+  }
+}
