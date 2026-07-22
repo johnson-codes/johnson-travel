@@ -614,5 +614,17 @@ window.JOURNEYS = [
     longitude: 139.6503,
     image: "images/journeys/tokyo.svg",
     story: "Shibuya crossing at dusk, tiny ramen counters, and a quiet morning at the Meiji Shrine."
+  },
+  {
+    id: 51,
+    location: "Quebec City, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 46.8139,
+    longitude: -71.208,
+    image: "images/journeys/quebeccity.svg",
+    story: "Cobblestone streets of Old Quebec, the Château Frontenac on the skyline, and poutine done properly."
   }
 ];
