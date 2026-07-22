@@ -95,6 +95,12 @@ window.JourneyMap = (function () {
       fullscreenControl: true,
       zoomControl: true,
       gestureHandling: "greedy",
+      backgroundColor: "#b7d0c8",
+      // Keep the viewport inside the world so no empty bands show above/below
+      restriction: {
+        latLngBounds: { north: 85, south: -85, west: -180, east: 180 },
+        strictBounds: true
+      },
       styles: [
         { elementType: "geometry", stylers: [{ color: "#ebe6db" }] },
         { elementType: "labels.text.fill", stylers: [{ color: "#5a6560" }] },

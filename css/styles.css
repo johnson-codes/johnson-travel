@@ -249,7 +249,9 @@ select {
 
 .result-count {
   margin: 0;
-  align-self: center;
+  /* Sit on the same row as the selects, centered against their height */
+  align-self: flex-end;
+  padding-bottom: 0.62rem;
   color: var(--muted);
   font-size: 0.9rem;
   font-weight: 600;
@@ -356,6 +358,31 @@ select {
 
 .gm-style .gm-style-iw-d {
   overflow: hidden !important;
+}
+
+/* Collapse the InfoWindow header strip; float the close button over the photo */
+.gm-style .gm-style-iw-chr {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 1;
+  height: auto;
+}
+
+.gm-style .gm-style-iw-chr .gm-ui-hover-effect {
+  width: 26px !important;
+  height: 26px !important;
+  border-radius: 999px;
+  background: rgba(255, 253, 249, 0.92) !important;
+  box-shadow: 0 1px 4px rgba(26, 38, 34, 0.25);
+  display: grid !important;
+  place-items: center;
+}
+
+.gm-style .gm-style-iw-chr .gm-ui-hover-effect span {
+  margin: 0 !important;
+  width: 16px !important;
+  height: 16px !important;
 }
 
 .gm-style .gm-style-iw-tc::after {
