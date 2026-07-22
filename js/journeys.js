@@ -480,6 +480,32 @@ window.JOURNEYS = [
     story: "Rolling countryside south of the Huai River — a quiet city break with Mount Chaya rising on the horizon."
   },
 
+  {
+    id: 49,
+    location: "Squamish, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 22, 2024",
+    status: "visited",
+    latitude: 49.7016,
+    longitude: -123.1558,
+    image: "images/journeys/squamish.svg",
+    story: "The Sea to Sky Gondola above Howe Sound, the Stawamus Chief looming overhead, and windsurfers at the Spit."
+  },
+
+  {
+    id: 50,
+    location: "Whistler, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 23, 2024",
+    status: "visited",
+    latitude: 50.1163,
+    longitude: -122.9574,
+    image: "images/journeys/whistler.svg",
+    story: "Peak 2 Peak gondola between the mountains, patio lunch in the village, and a walk around Lost Lake."
+  },
+
   // ——— To visit ———
   {
     id: 6,
@@ -564,5 +590,29 @@ window.JOURNEYS = [
     longitude: 18.4241,
     image: "images/journeys/capetown.svg",
     story: "Table Mountain by cable car, penguins at Boulders Beach, and a drive down the Cape Peninsula."
+  },
+  {
+    id: 47,
+    location: "Seoul, South Korea",
+    country: "South Korea",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 37.5665,
+    longitude: 126.978,
+    image: "images/journeys/seoul.svg",
+    story: "Palaces in hanbok season, late-night Korean barbecue, and a sunrise hike up Bukhansan."
+  },
+  {
+    id: 48,
+    location: "Tokyo, Japan",
+    country: "Japan",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 35.6762,
+    longitude: 139.6503,
+    image: "images/journeys/tokyo.svg",
+    story: "Shibuya crossing at dusk, tiny ramen counters, and a quiet morning at the Meiji Shrine."
   }
 ];

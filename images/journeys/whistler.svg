@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce8f2"/>
+  <path d="M40 460 L260 160 L480 460 Z" fill="#5c7a94"/>
+  <path d="M260 160 L330 260 L260 260 Z" fill="#ffffff"/>
+  <path d="M380 460 L580 220 L800 460 Z" fill="#49647c"/>
+  <path d="M580 220 L640 300 L580 300 Z" fill="#ffffff"/>
+  <path d="M180 300 L640 260" stroke="#2f4457" stroke-width="6"/>
+  <rect x="390" y="270" width="34" height="26" rx="6" fill="#c96f3a"/>
+  <rect y="460" width="800" height="140" fill="#5e8258"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Whistler</text>
+</svg>

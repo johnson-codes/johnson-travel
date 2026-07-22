@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe6ee"/>
+  <path d="M0 420 L180 280 L360 420 Z" fill="#8fa3b8"/>
+  <path d="M280 420 L480 240 L680 420 Z" fill="#6f8aa3"/>
+  <rect y="420" width="800" height="180" fill="#4e6b85"/>
+  <rect x="540" y="180" width="26" height="240" fill="#3c5268"/>
+  <circle cx="553" cy="170" r="18" fill="#3c5268"/>
+  <path d="M120 470 Q400 440 680 470" stroke="#c9d5e0" stroke-width="8" fill="none" opacity="0.7"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Seoul</text>
+</svg>
