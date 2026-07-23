@@ -506,6 +506,314 @@ window.JOURNEYS = [
     story: "Peak 2 Peak gondola between the mountains, patio lunch in the village, and a walk around Lost Lake."
   },
 
+  {
+    id: 56,
+    location: "Shanwei, China",
+    country: "China Mainland",
+    year: 2023,
+    date: "May 5, 2023",
+    status: "visited",
+    latitude: 22.7787,
+    longitude: 115.3751,
+    image: "images/journeys/shanwei.svg",
+    story: "Golden sand at Red Bay, fishing boats coming in at dusk, and the freshest seafood on the Guangdong coast."
+  },
+
+  {
+    id: 57,
+    location: "Future of Flight, Mukilteo, USA",
+    country: "USA",
+    year: 2025,
+    date: "April 6, 2025",
+    status: "visited",
+    latitude: 47.9231,
+    longitude: -122.2703,
+    image: "images/journeys/mukilteo.svg",
+    story: "The Boeing factory tour at Paine Field — watching 777s come together under one gigantic roof."
+  },
+
+  {
+    id: 58,
+    location: "Fangcheng, Henan, China",
+    country: "China Mainland",
+    year: 2019,
+    date: "October 10, 2019",
+    status: "visited",
+    latitude: 33.2544,
+    longitude: 113.0125,
+    image: "images/journeys/fangcheng.svg",
+    story: "A countryside stop in Nanyang prefecture — ancient Chu Great Wall ruins and quiet wheat-field roads."
+  },
+
+  {
+    id: 59,
+    location: "Chengdu, China",
+    country: "China Mainland",
+    year: 2019,
+    date: "October 15, 2019",
+    status: "visited",
+    latitude: 30.5728,
+    longitude: 104.0668,
+    image: "images/journeys/chengdu.svg",
+    story: "Baby pandas at the research base, numbing hotpot, and slow afternoons in People's Park teahouses."
+  },
+
+  {
+    id: 60,
+    location: "Malahat, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "September 6, 2025",
+    status: "visited",
+    latitude: 48.5567,
+    longitude: -123.5583,
+    image: "images/journeys/malahat.svg",
+    story: "Up the spiral ramp of the Malahat SkyWalk — Finlayson Arm and the Saanich Inlet glittering far below."
+  },
+
+  {
+    id: 61,
+    location: "Skagit Valley Tulip Festival, USA",
+    country: "USA",
+    year: 2025,
+    date: "April 6, 2025",
+    status: "visited",
+    latitude: 48.4176,
+    longitude: -122.3382,
+    image: "images/journeys/skagitvalley.svg",
+    story: "Endless stripes of red and yellow tulips across the Skagit flats, with Mount Baker floating on the horizon."
+  },
+
+  {
+    id: 65,
+    location: "Fenghuang, Hunan, China",
+    country: "China Mainland",
+    year: 2023,
+    date: "May 14, 2023",
+    status: "visited",
+    latitude: 27.9484,
+    longitude: 109.5996,
+    image: "images/journeys/fenghuang.svg",
+    story: "Stilted houses leaning over the Tuojiang River, lanterns at night, and mist on the water at dawn in Phoenix Ancient Town."
+  },
+
+  {
+    id: 66,
+    location: "Vancouver, Canada",
+    country: "Canada",
+    year: 2022,
+    date: "June 4, 2022",
+    status: "visited",
+    latitude: 49.2827,
+    longitude: -123.1207,
+    image: "images/journeys/vancouver.svg",
+    story: "The Stanley Park seawall on two wheels, Granville Island market snacks, and sunset at English Bay."
+  },
+  {
+    id: 67,
+    location: "Burnaby, Canada",
+    country: "Canada",
+    year: 2022,
+    date: "July 9, 2022",
+    status: "visited",
+    latitude: 49.2488,
+    longitude: -122.9805,
+    image: "images/journeys/burnaby.svg",
+    story: "Deer Lake paddling, the rose garden on Burnaby Mountain, and the city glittering from the SFU lookout."
+  },
+  {
+    id: 68,
+    location: "Surrey, Canada",
+    country: "Canada",
+    year: 2023,
+    date: "August 5, 2023",
+    status: "visited",
+    latitude: 49.1913,
+    longitude: -122.849,
+    image: "images/journeys/surrey.svg",
+    story: "Green Timbers forest walks and the best butter chicken of my life on the Newton strip."
+  },
+  {
+    id: 69,
+    location: "Richmond, Canada",
+    country: "Canada",
+    year: 2022,
+    date: "May 21, 2022",
+    status: "visited",
+    latitude: 49.1666,
+    longitude: -123.1336,
+    image: "images/journeys/richmond.svg",
+    story: "Dim sum marathons on Alexandra Road and fish and chips on the wharf in Steveston."
+  },
+  {
+    id: 70,
+    location: "Coquitlam, Canada",
+    country: "Canada",
+    year: 2023,
+    date: "December 16, 2023",
+    status: "visited",
+    latitude: 49.2838,
+    longitude: -122.7932,
+    image: "images/journeys/coquitlam.svg",
+    story: "Lafarge Lake's winter lights and a misty morning loop around Como Lake."
+  },
+  {
+    id: 71,
+    location: "Delta, Canada",
+    country: "Canada",
+    year: 2023,
+    date: "April 15, 2023",
+    status: "visited",
+    latitude: 49.0847,
+    longitude: -123.0587,
+    image: "images/journeys/delta.svg",
+    story: "Snow geese lifting off at the Reifel bird sanctuary and ice cream in Ladner Village."
+  },
+  {
+    id: 72,
+    location: "Langley, Canada",
+    country: "Canada",
+    year: 2023,
+    date: "July 22, 2023",
+    status: "visited",
+    latitude: 49.1044,
+    longitude: -122.6603,
+    image: "images/journeys/langley.svg",
+    story: "Fort Langley's wooden boardwalks, antique shops, and fudge by the Fraser River."
+  },
+  {
+    id: 73,
+    location: "North Vancouver, Canada",
+    country: "Canada",
+    year: 2022,
+    date: "August 13, 2022",
+    status: "visited",
+    latitude: 49.32,
+    longitude: -123.0724,
+    image: "images/journeys/northvancouver.svg",
+    story: "The Grouse Grind's 2,830 stairs, Lynn Canyon's free suspension bridge, and tacos at Lonsdale Quay."
+  },
+  {
+    id: 74,
+    location: "West Vancouver, Canada",
+    country: "Canada",
+    year: 2022,
+    date: "September 3, 2022",
+    status: "visited",
+    latitude: 49.3286,
+    longitude: -123.1602,
+    image: "images/journeys/westvancouver.svg",
+    story: "Arbutus trees at Lighthouse Park and a long lazy afternoon on Ambleside Beach watching the ships."
+  },
+  {
+    id: 75,
+    location: "New Westminster, Canada",
+    country: "Canada",
+    year: 2023,
+    date: "June 10, 2023",
+    status: "visited",
+    latitude: 49.2057,
+    longitude: -122.911,
+    image: "images/journeys/newwestminster.svg",
+    story: "The River Market, tugboats on the Fraser, and Victorian houses up the hill in the old capital."
+  },
+  {
+    id: 76,
+    location: "Port Coquitlam, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "May 11, 2024",
+    status: "visited",
+    latitude: 49.2626,
+    longitude: -122.7811,
+    image: "images/journeys/portcoquitlam.svg",
+    story: "Biking the Traboulay PoCo Trail loop where the Coquitlam River meets the Fraser."
+  },
+  {
+    id: 77,
+    location: "Port Moody, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "July 6, 2024",
+    status: "visited",
+    latitude: 49.2831,
+    longitude: -122.8317,
+    image: "images/journeys/portmoody.svg",
+    story: "Brewery row tastings and ice cream at Rocky Point Pier as the tide slid out of the inlet."
+  },
+  {
+    id: 78,
+    location: "Maple Ridge, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "August 10, 2024",
+    status: "visited",
+    latitude: 49.2193,
+    longitude: -122.5984,
+    image: "images/journeys/mapleridge.svg",
+    story: "Golden Ears Park all day — Alouette Lake swims and cathedral stands of second-growth fir."
+  },
+  {
+    id: 79,
+    location: "Pitt Meadows, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "August 11, 2024",
+    status: "visited",
+    latitude: 49.2211,
+    longitude: -122.6894,
+    image: "images/journeys/pittmeadows.svg",
+    story: "Flat dike trails between cranberry fields, with Golden Ears looming over Pitt Lake."
+  },
+  {
+    id: 80,
+    location: "Anmore, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 29, 2024",
+    status: "visited",
+    latitude: 49.3164,
+    longitude: -122.856,
+    image: "images/journeys/anmore.svg",
+    story: "A summer Saturday at Buntzen Lake — early arrival, floating dock naps, and forest trail loops."
+  },
+  {
+    id: 81,
+    location: "Belcarra, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 30, 2024",
+    status: "visited",
+    latitude: 49.3126,
+    longitude: -122.9256,
+    image: "images/journeys/belcarra.svg",
+    story: "Crabbing off the Belcarra pier and a picnic under the big maples at the regional park."
+  },
+  {
+    id: 82,
+    location: "Bowen Island, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "May 17, 2025",
+    status: "visited",
+    latitude: 49.3809,
+    longitude: -123.335,
+    image: "images/journeys/bowenisland.svg",
+    story: "The little ferry from Horseshoe Bay, a loop around Killarney Lake, and pie in Snug Cove."
+  },
+  {
+    id: 83,
+    location: "Lions Bay, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "June 21, 2025",
+    status: "visited",
+    latitude: 49.4585,
+    longitude: -123.2373,
+    image: "images/journeys/lionsbay.svg",
+    story: "The steep grind up to Tunnel Bluffs, rewarded with the whole of Howe Sound spread out below."
+  },
+
   // ——— To visit ———
   {
     id: 6,
@@ -674,5 +982,65 @@ window.JOURNEYS = [
     longitude: -79.3832,
     image: "images/journeys/toronto.svg",
     story: "The view from the CN Tower, Kensington Market snacks, and a ferry ride to the Toronto Islands."
+  },
+  {
+    id: 62,
+    location: "Athens, Greece",
+    country: "Greece",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 37.9838,
+    longitude: 23.7275,
+    image: "images/journeys/athens.svg",
+    story: "The Acropolis at golden hour, wandering the Plaka's marble lanes, and souvlaki under the Parthenon's shadow."
+  },
+  {
+    id: 63,
+    location: "Rome, Italy",
+    country: "Italy",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 41.9028,
+    longitude: 12.4964,
+    image: "images/journeys/rome.svg",
+    story: "The Colosseum at sunrise, a coin in the Trevi Fountain, and carbonara in a Trastevere trattoria."
+  },
+  {
+    id: 64,
+    location: "Ho Chi Minh City, Vietnam",
+    country: "Vietnam",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 10.8231,
+    longitude: 106.6297,
+    image: "images/journeys/hochiminh.svg",
+    story: "Scooter rivers at rush hour, banh mi from a street cart, and rooftop views over the Saigon River."
+  },
+  {
+    id: 84,
+    location: "Yellowstone National Park, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 44.428,
+    longitude: -110.5885,
+    image: "images/journeys/yellowstone.svg",
+    story: "Old Faithful on schedule, the rainbow rings of Grand Prismatic, and bison jams in the Lamar Valley."
+  },
+  {
+    id: 85,
+    location: "Niagara Falls, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 43.0896,
+    longitude: -79.0849,
+    image: "images/journeys/niagarafalls.svg",
+    story: "Soaked on the Hornblower boat under Horseshoe Falls, then the falls lit up in color after dark."
   }
 ];

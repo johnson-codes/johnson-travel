@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f2e3cf"/>
+  <rect y="440" width="800" height="160" fill="#c9a15e"/>
+  <path d="M180 440 A220 220 0 0 1 620 440 Z" fill="#b3814d"/>
+  <path d="M220 440 A180 180 0 0 1 580 440 Z" fill="#d9b071"/>
+  <rect x="250" y="330" width="34" height="60" rx="16" fill="#f2e3cf"/>
+  <rect x="320" y="330" width="34" height="60" rx="16" fill="#f2e3cf"/>
+  <rect x="390" y="330" width="34" height="60" rx="16" fill="#f2e3cf"/>
+  <rect x="460" y="330" width="34" height="60" rx="16" fill="#f2e3cf"/>
+  <rect x="530" y="330" width="34" height="60" rx="16" fill="#f2e3cf"/>
+  <rect x="285" y="400" width="34" height="40" rx="16" fill="#f2e3cf"/>
+  <rect x="360" y="400" width="34" height="40" rx="16" fill="#f2e3cf"/>
+  <rect x="435" y="400" width="34" height="40" rx="16" fill="#f2e3cf"/>
+  <rect x="510" y="400" width="34" height="40" rx="16" fill="#f2e3cf"/>
+  <circle cx="130" cy="110" r="34" fill="#f0c35a" opacity="0.95"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Rome</text>
+</svg>

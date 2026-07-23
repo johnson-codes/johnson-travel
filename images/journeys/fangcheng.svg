@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e9e4cd"/>
+  <path d="M0 420 L200 320 L400 420 Z" fill="#8a9b6e"/>
+  <path d="M300 420 L520 300 L740 420 Z" fill="#71855c"/>
+  <rect y="420" width="800" height="180" fill="#c9bd8f"/>
+  <path d="M0 470 H800 M0 510 H800" stroke="#b3a878" stroke-width="10"/>
+  <path d="M180 360 L230 340 L280 360 L330 342 L380 360" stroke="#5c5340" stroke-width="10" fill="none"/>
+  <circle cx="650" cy="120" r="36" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Fangcheng</text>
+</svg>

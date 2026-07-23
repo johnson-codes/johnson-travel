@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d8e6ea"/>
+  <path d="M0 430 L200 290 L400 430 Z" fill="#7a8f6b"/>
+  <path d="M320 430 L560 310 L800 430 Z" fill="#5c7350"/>
+  <rect y="430" width="800" height="170" fill="#c9a15e"/>
+  <circle cx="400" cy="480" r="70" fill="#3f97bf"/>
+  <circle cx="400" cy="480" r="52" fill="#4fb3a5"/>
+  <circle cx="400" cy="480" r="34" fill="#e8b53a"/>
+  <circle cx="400" cy="480" r="18" fill="#c96f3a"/>
+  <path d="M190 430 Q200 350 190 320 Q180 350 190 430" fill="#fffdf9" opacity="0.9"/>
+  <ellipse cx="190" cy="310" rx="26" ry="14" fill="#fffdf9" opacity="0.8"/>
+  <circle cx="650" cy="110" r="36" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Yellowstone</text>
+</svg>

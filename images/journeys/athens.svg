@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce9f2"/>
+  <path d="M120 420 Q400 340 680 420 V600 H120 Z" fill="#c2a97a"/>
+  <rect x="270" y="240" width="260" height="24" fill="#f2ede2"/>
+  <path d="M255 240 L400 180 L545 240 Z" fill="#f2ede2"/>
+  <rect x="285" y="264" width="20" height="120" fill="#e5ddcb"/>
+  <rect x="335" y="264" width="20" height="120" fill="#e5ddcb"/>
+  <rect x="385" y="264" width="20" height="120" fill="#e5ddcb"/>
+  <rect x="435" y="264" width="20" height="120" fill="#e5ddcb"/>
+  <rect x="485" y="264" width="20" height="120" fill="#e5ddcb"/>
+  <rect x="270" y="384" width="260" height="20" fill="#f2ede2"/>
+  <circle cx="660" cy="110" r="36" fill="#f0c35a" opacity="0.95"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Athens</text>
+</svg>

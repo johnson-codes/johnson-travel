@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe8d8"/>
+  <rect y="430" width="800" height="170" fill="#7fa06f"/>
+  <path d="M540 430 Q560 300 640 280 Q720 300 740 430 Z" fill="#4a6a3f"/>
+  <circle cx="360" cy="330" r="80" fill="#fffdf9"/>
+  <circle cx="330" cy="300" r="22" fill="#1a2622"/>
+  <circle cx="395" cy="300" r="22" fill="#1a2622"/>
+  <circle cx="332" cy="304" r="8" fill="#fffdf9"/>
+  <circle cx="393" cy="304" r="8" fill="#fffdf9"/>
+  <ellipse cx="360" cy="350" rx="16" ry="12" fill="#1a2622"/>
+  <ellipse cx="300" cy="255" rx="20" ry="18" fill="#1a2622"/>
+  <ellipse cx="420" cy="255" rx="20" ry="18" fill="#1a2622"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Chengdu</text>
+</svg>

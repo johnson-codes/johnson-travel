@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#cfe3ee"/>
+  <rect y="200" width="800" height="80" fill="#3f8cb5"/>
+  <path d="M100 280 Q400 260 700 280 L700 460 Q400 500 100 460 Z" fill="#7ec4e0"/>
+  <path d="M140 280 L140 450 M240 280 L240 465 M340 280 L340 472 M440 280 L440 472 M540 280 L540 465 M660 280 L660 450" stroke="#fffdf9" stroke-width="26" opacity="0.75"/>
+  <ellipse cx="400" cy="500" rx="320" ry="50" fill="#a8d8ec" opacity="0.9"/>
+  <ellipse cx="400" cy="490" rx="200" ry="26" fill="#fffdf9" opacity="0.6"/>
+  <path d="M330 520 L400 505 L470 520 L400 535 Z" fill="#c1543a"/>
+  <circle cx="130" cy="100" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="570" fill="#1a2622" font-family="Georgia, serif" font-size="36">Niagara Falls</text>
+</svg>

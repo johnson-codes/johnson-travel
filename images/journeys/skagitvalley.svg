@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#cfe3ee"/>
+  <path d="M520 300 L640 190 L780 300 Z" fill="#e8eef2"/>
+  <rect y="300" width="800" height="100" fill="#c94f4f"/>
+  <rect y="400" width="800" height="100" fill="#e8b53a"/>
+  <rect y="500" width="800" height="100" fill="#c94f8a"/>
+  <path d="M0 300 H800 M0 400 H800 M0 500 H800" stroke="#3f6b3a" stroke-width="6"/>
+  <path d="M100 340 l0 -26 M300 360 l0 -26 M500 345 l0 -26 M700 355 l0 -26" stroke="#3f6b3a" stroke-width="5"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="570" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Skagit Valley</text>
+</svg>

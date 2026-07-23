@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#3b4a52"/>
+  <rect y="430" width="800" height="170" fill="#26343c"/>
+  <path d="M0 430 Q260 415 520 430 T800 425 V600 H0 Z" fill="#2e5a66"/>
+  <rect x="140" y="280" width="120" height="150" fill="#4f3a2c"/>
+  <path d="M130 280 L200 240 L270 280 Z" fill="#33261c"/>
+  <rect x="320" y="300" width="140" height="130" fill="#5c452f"/>
+  <path d="M310 300 L390 255 L470 300 Z" fill="#3d2f21"/>
+  <rect x="520" y="270" width="130" height="160" fill="#4f3a2c"/>
+  <path d="M510 270 L585 225 L660 270 Z" fill="#33261c"/>
+  <circle cx="200" cy="360" r="10" fill="#f0c35a"/>
+  <circle cx="390" cy="375" r="10" fill="#f0c35a"/>
+  <circle cx="585" cy="350" r="10" fill="#f0c35a"/>
+  <circle cx="200" cy="470" r="6" fill="#f0c35a" opacity="0.7"/>
+  <circle cx="390" cy="480" r="6" fill="#f0c35a" opacity="0.7"/>
+  <circle cx="585" cy="465" r="6" fill="#f0c35a" opacity="0.7"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Fenghuang</text>
+</svg>
