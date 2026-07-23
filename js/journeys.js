@@ -598,6 +598,45 @@ window.JOURNEYS = [
   },
 
   {
+    id: 91,
+    location: "Yale, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "August 3, 2025",
+    status: "visited",
+    latitude: 49.5623,
+    longitude: -121.43,
+    image: "images/journeys/yale.svg",
+    story: "A gold-rush ghost of a town at the foot of the Fraser Canyon — the old church and stories of the Cariboo Road."
+  },
+
+  {
+    id: 92,
+    location: "Lytton, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "August 3, 2025",
+    status: "visited",
+    latitude: 50.2337,
+    longitude: -121.582,
+    image: "images/journeys/lytton.svg",
+    story: "Where the blue-green Thompson meets the muddy Fraser — two rivers side by side in one channel."
+  },
+
+  {
+    id: 93,
+    location: "Lillooet, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "August 4, 2025",
+    status: "visited",
+    latitude: 50.6864,
+    longitude: -121.9364,
+    image: "images/journeys/lillooet.svg",
+    story: "Mile 0 of the old Cariboo Road — sagebrush benches, the hanging bridge, and heat shimmering off the canyon."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",

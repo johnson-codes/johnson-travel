@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e2d9c6"/>
+  <path d="M0 430 L200 260 L420 430 Z" fill="#7a6a4f"/>
+  <path d="M340 430 L580 300 L800 430 Z" fill="#5c5340"/>
+  <rect y="430" width="800" height="170" fill="#3f6f8c"/>
+  <path d="M0 480 Q260 455 520 480 T800 470" stroke="#6b98b3" stroke-width="10" fill="none"/>
+  <circle cx="640" cy="110" r="36" fill="#f0c35a" opacity="0.95"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Yale</text>
+</svg>
