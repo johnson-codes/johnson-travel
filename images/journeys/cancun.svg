@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#a5e0ef"/>
+  <rect y="330" width="800" height="270" fill="#2fb5c9"/>
+  <path d="M0 330 Q200 310 400 328 T800 322 V600 H0 Z" fill="#28a3ba" opacity="0.9"/>
+  <path d="M0 460 Q260 430 520 460 T800 450 V600 H0 Z" fill="#f7ecd2"/>
+  <path d="M620 460 L620 330 M620 330 Q560 350 620 375 Q680 350 620 330 M620 345 Q575 370 620 392 Q665 370 620 345" stroke="#3f8c4f" stroke-width="10" fill="none"/>
+  <path d="M180 500 L230 470 L280 500 L230 515 Z" fill="#c9a15e"/>
+  <circle cx="150" cy="105" r="40" fill="#f0c35a"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">Cancún</text>
+</svg>

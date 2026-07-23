@@ -1042,5 +1042,65 @@ window.JOURNEYS = [
     longitude: -79.0849,
     image: "images/journeys/niagarafalls.svg",
     story: "Soaked on the Hornblower boat under Horseshoe Falls, then the falls lit up in color after dark."
+  },
+  {
+    id: 86,
+    location: "Cancún, Mexico",
+    country: "Mexico",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 21.1619,
+    longitude: -86.8515,
+    image: "images/journeys/cancun.svg",
+    story: "Turquoise water and white sand, a cenote swim inland, and a day trip to the ruins at Chichén Itzá."
+  },
+  {
+    id: 87,
+    location: "Chicago, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 41.8781,
+    longitude: -87.6298,
+    image: "images/journeys/chicago.svg",
+    story: "The Bean at sunrise, deep-dish pizza debates, and an architecture boat cruise down the Chicago River."
+  },
+  {
+    id: 88,
+    location: "Montréal, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 45.5017,
+    longitude: -73.5673,
+    image: "images/journeys/montreal.svg",
+    story: "Bagels versus smoked meat, Old Montréal's cobblestones, and the view from atop Mount Royal."
+  },
+  {
+    id: 89,
+    location: "Edmonton, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 53.5461,
+    longitude: -113.4938,
+    image: "images/journeys/edmonton.svg",
+    story: "The river valley trails, West Edmonton Mall's indoor waterpark, and food trucks on a long summer evening."
+  },
+  {
+    id: 90,
+    location: "Red Deer, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 52.2681,
+    longitude: -113.8112,
+    image: "images/journeys/reddeer.svg",
+    story: "A halfway stop on the Calgary–Edmonton run — Bower Ponds paddleboats and trails along the Red Deer River."
   }
 ];

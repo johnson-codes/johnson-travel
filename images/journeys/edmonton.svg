@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dde7ee"/>
+  <rect x="140" y="260" width="80" height="180" fill="#8fa3b5"/>
+  <rect x="260" y="200" width="100" height="240" fill="#7a90a3"/>
+  <rect x="400" y="290" width="70" height="150" fill="#8fa3b5"/>
+  <path d="M520 440 A90 90 0 0 1 700 440 Z" fill="#a5b8c6"/>
+  <rect y="440" width="800" height="160" fill="#5e8258"/>
+  <path d="M0 500 Q260 470 520 500 T800 490" stroke="#4e7d9c" stroke-width="22" fill="none"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Edmonton</text>
+</svg>

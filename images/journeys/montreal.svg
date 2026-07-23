@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e6e2d8"/>
+  <path d="M0 400 Q200 300 400 400 Z" fill="#5c7a5e"/>
+  <path d="M170 330 L170 300 M158 312 H182" stroke="#8a5a33" stroke-width="8"/>
+  <rect x="440" y="240" width="120" height="160" fill="#9a8f80"/>
+  <path d="M430 240 L500 190 L570 240 Z" fill="#6e655a"/>
+  <rect x="470" y="300" width="24" height="100" fill="#6e655a"/>
+  <rect x="610" y="280" width="80" height="120" fill="#b0a696"/>
+  <rect y="400" width="800" height="200" fill="#4e7d9c"/>
+  <path d="M0 450 Q260 430 520 450 T800 445" stroke="#89a7c2" stroke-width="8" fill="none"/>
+  <circle cx="130" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Montréal</text>
+</svg>

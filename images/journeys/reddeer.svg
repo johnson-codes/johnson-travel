@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e8e6d4"/>
+  <path d="M0 420 Q200 380 400 415 T800 410 V600 H0 Z" fill="#8fae7e"/>
+  <path d="M0 480 Q260 455 520 480 T800 470" stroke="#4e7d9c" stroke-width="20" fill="none"/>
+  <path d="M540 380 l0 -70 M540 330 l-30 -40 M540 330 l30 -40 M510 290 l-16 -20 M510 290 l14 -26 M570 290 l16 -20 M570 290 l-14 -26" stroke="#8a5a33" stroke-width="9" fill="none"/>
+  <path d="M500 380 q40 -30 80 0 l-12 40 h-56 Z" fill="#a86a38"/>
+  <circle cx="150" cy="110" r="36" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Red Deer</text>
+</svg>
