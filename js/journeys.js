@@ -637,6 +637,19 @@ window.JOURNEYS = [
   },
 
   {
+    id: 94,
+    location: "Elfin Lakes, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 22, 2024",
+    status: "visited",
+    latitude: 49.7756,
+    longitude: -123.0396,
+    image: "images/journeys/elfinlakes.svg",
+    story: "The long trail up from Diamond Head to two alpine tarns, with Mount Garibaldi filling the sky."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",
