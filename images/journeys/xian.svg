@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e3d9c2"/>
+  <rect y="430" width="800" height="170" fill="#a8987a"/>
+  <rect x="120" y="300" width="60" height="130" rx="8" fill="#8f7f63"/>
+  <rect x="220" y="300" width="60" height="130" rx="8" fill="#9a8a6c"/>
+  <rect x="320" y="300" width="60" height="130" rx="8" fill="#8f7f63"/>
+  <circle cx="150" cy="285" r="18" fill="#6e6047"/>
+  <circle cx="250" cy="285" r="18" fill="#7a6b52"/>
+  <circle cx="350" cy="285" r="18" fill="#6e6047"/>
+  <rect x="500" y="220" width="180" height="60" fill="#5c4530"/>
+  <path d="M480 220 L590 170 L700 220 Z" fill="#7a3f2e"/>
+  <rect x="520" y="280" width="140" height="150" fill="#8a7355"/>
+  <path d="M500 280 H680" stroke="#5c4530" stroke-width="10"/>
+  <circle cx="660" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Xi'an</text>
+</svg>

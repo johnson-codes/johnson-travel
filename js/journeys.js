@@ -1263,5 +1263,17 @@ window.JOURNEYS = [
     longitude: 72.8777,
     image: "images/journeys/mumbai.svg",
     story: "The Gateway of India at dawn, vada pav between train rides, and the Marine Drive lights curling along the bay."
+  },
+  {
+    id: 104,
+    location: "Xi'an, China",
+    country: "China Mainland",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 34.3416,
+    longitude: 108.9398,
+    image: "images/journeys/xian.svg",
+    story: "The Terracotta Army rank on rank, cycling the old city wall, and hand-pulled biangbiang noodles in the Muslim Quarter."
   }
 ];
