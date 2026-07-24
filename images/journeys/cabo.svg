@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#ffd9a0"/>
+  <circle cx="400" cy="300" r="80" fill="#f0904a"/>
+  <rect y="360" width="800" height="240" fill="#2f8fb5"/>
+  <path d="M0 360 Q200 340 400 358 T800 352 V600 H0 Z" fill="#28799c" opacity="0.9"/>
+  <path d="M480 360 L560 220 L640 360 Z" fill="#8a6a4f"/>
+  <path d="M560 360 L640 250 L720 360 Z" fill="#7a5a3f"/>
+  <path d="M596 360 A40 40 0 0 1 668 360 Z" fill="#ffd9a0"/>
+  <path d="M0 520 Q260 490 520 520 T800 510 V600 H0 Z" fill="#f7e3bc"/>
+  <path d="M180 470 L230 435 L240 475 Z" fill="#fffdf9"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">Cabo San Lucas</text>
+</svg>

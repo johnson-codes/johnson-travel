@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#c8d8d4"/>
+  <rect y="340" width="800" height="260" fill="#4a7d8c"/>
+  <path d="M0 340 Q200 315 400 338 T800 330 V600 H0 Z" fill="#3f6f7d" opacity="0.9"/>
+  <path d="M0 430 Q130 400 260 430 T520 428 T800 425" stroke="#fffdf9" stroke-width="10" fill="none" opacity="0.7"/>
+  <path d="M0 500 Q260 470 520 500 T800 490 V600 H0 Z" fill="#e8dcc0"/>
+  <path d="M620 340 L620 220 M620 235 L570 265 M620 250 L665 285 M620 270 L580 300" stroke="#2f4a42" stroke-width="12"/>
+  <path d="M300 470 L340 440 L345 475 Z" fill="#c96f3a"/>
+  <circle cx="150" cy="105" r="34" fill="#f0c35a" opacity="0.8"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">Tofino</text>
+</svg>

@@ -1178,5 +1178,29 @@ window.JOURNEYS = [
     longitude: -149.9003,
     image: "images/journeys/alaska.svg",
     story: "Glaciers calving into Prince William Sound, moose downtown, and the midnight sun that never quite sets."
+  },
+  {
+    id: 97,
+    location: "Tofino, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 49.153,
+    longitude: -125.9066,
+    image: "images/journeys/tofino.svg",
+    story: "Storm-watching from a cabin at Chesterman Beach, a first surf lesson in cold water, and Hot Springs Cove by boat."
+  },
+  {
+    id: 98,
+    location: "Cabo San Lucas, Mexico",
+    country: "Mexico",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 22.8905,
+    longitude: -109.9167,
+    image: "images/journeys/cabo.svg",
+    story: "A glass-bottom boat out to El Arco, whale season from the marina, and tacos on Médano Beach."
   }
 ];
