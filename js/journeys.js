@@ -650,6 +650,19 @@ window.JOURNEYS = [
   },
 
   {
+    id: 102,
+    location: "Shangcai, Henan, China",
+    country: "China Mainland",
+    year: 2019,
+    date: "October 11, 2019",
+    status: "visited",
+    latitude: 33.2622,
+    longitude: 114.2645,
+    image: "images/journeys/shangcai.svg",
+    story: "One of China's oldest counties — ancestral home of the Cai clan, with quiet lanes and millennia of history underfoot."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",
@@ -1238,5 +1251,17 @@ window.JOURNEYS = [
     longitude: -122.6784,
     image: "images/journeys/portland.svg",
     story: "Powell's Books for a whole morning, food cart pods for lunch, and waterfalls in the Columbia River Gorge."
+  },
+  {
+    id: 103,
+    location: "Mumbai, India",
+    country: "India",
+    year: 2029,
+    date: "Planned for 2029",
+    status: "to-visit",
+    latitude: 19.076,
+    longitude: 72.8777,
+    image: "images/journeys/mumbai.svg",
+    story: "The Gateway of India at dawn, vada pav between train rides, and the Marine Drive lights curling along the bay."
   }
 ];

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e7e2cf"/>
+  <rect y="440" width="800" height="160" fill="#b3a878"/>
+  <rect x="300" y="260" width="200" height="180" fill="#8f8268"/>
+  <path d="M280 260 L400 200 L520 260 Z" fill="#6e6350"/>
+  <rect x="370" y="350" width="60" height="90" fill="#5c5340"/>
+  <path d="M120 440 L120 380 M120 380 Q90 400 120 415 Q150 400 120 380" stroke="#5c7a4f" stroke-width="9" fill="none"/>
+  <path d="M680 440 L680 370 M680 370 Q650 392 680 408 Q710 392 680 370" stroke="#5c7a4f" stroke-width="9" fill="none"/>
+  <path d="M0 500 H800" stroke="#a09468" stroke-width="10"/>
+  <circle cx="650" cy="115" r="35" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Shangcai</text>
+</svg>
