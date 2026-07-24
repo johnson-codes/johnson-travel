@@ -8,13 +8,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,550;9..144,650&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="css/styles.css?v=2" />
+  <link rel="stylesheet" href="css/styles.css?v=4" />
 </head>
 <body>
   <header class="masthead">
     <div class="content-rail masthead-inner">
       <div class="masthead-brand">
-        <h1 class="brand">Johnson’s <span>Journey</span></h1>
+        <h1 class="brand" aria-label="Johnson’s Journey">
+          Johnson’s
+          <svg class="brand-sun" viewBox="0 0 100 100" width="1em" height="1em" aria-hidden="true" focusable="false">
+            <g fill="currentColor">
+              <!-- Long rays (cardinal + diagonal) -->
+              <g>
+                <polygon points="50,2 56,30 50,36 44,30" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(45 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(90 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(135 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(180 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(225 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(270 50 50)" />
+                <polygon points="50,2 56,30 50,36 44,30" transform="rotate(315 50 50)" />
+              </g>
+              <!-- Short diamond rays between long ones -->
+              <g>
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(22.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(67.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(112.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(157.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(202.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(247.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(292.5 50 50)" />
+                <polygon points="50,16 57,28 50,40 43,28" transform="rotate(337.5 50 50)" />
+              </g>
+              <circle cx="50" cy="50" r="20" fill="#fff3a0" />
+              <circle cx="50" cy="50" r="15" />
+            </g>
+          </svg>
+        </h1>
       </div>
       <dl class="stats" aria-label="Travel statistics">
         <div class="stat">

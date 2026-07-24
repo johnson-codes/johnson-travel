@@ -85,6 +85,9 @@ select {
 
 .brand {
   margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.28em;
   font-family: var(--font-display);
   font-size: clamp(2rem, 4.2vw, 3rem);
   font-weight: 650;
@@ -93,8 +96,28 @@ select {
   color: var(--forest-deep);
 }
 
-.brand span {
-  color: var(--sun);
+.brand-sun {
+  flex-shrink: 0;
+  width: 1.84em;
+  height: 1.84em;
+  color: #ffd400;
+  transform-origin: center;
+  animation: brand-sun-spin 12s linear infinite;
+}
+
+@keyframes brand-sun-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .brand-sun {
+    animation: none;
+  }
 }
 
 /* Stats: one quiet divided row instead of three boxes */
