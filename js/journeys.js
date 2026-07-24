@@ -702,6 +702,32 @@ window.JOURNEYS = [
   },
 
   {
+    id: 108,
+    location: "Golden Ears, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "August 10, 2024",
+    status: "visited",
+    latitude: 49.3167,
+    longitude: -122.4667,
+    image: "images/journeys/goldenears.svg",
+    story: "Alouette Lake's cold blue water, the climb toward the twin peaks, and a picnic among the firs."
+  },
+
+  {
+    id: 109,
+    location: "Harrison Hot Springs, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "July 21, 2024",
+    status: "visited",
+    latitude: 49.3,
+    longitude: -121.7815,
+    image: "images/journeys/harrisonhotsprings.svg",
+    story: "A soak in the mineral pools, strolling the lakefront esplanade, and the mountains wrapping Harrison Lake."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",

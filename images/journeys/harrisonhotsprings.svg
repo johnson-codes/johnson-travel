@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce8ee"/>
+  <path d="M0 380 L220 240 L440 380 Z" fill="#6b8a7a"/>
+  <path d="M360 380 L580 220 L800 380 Z" fill="#557a6a"/>
+  <rect y="380" width="800" height="220" fill="#3f7ba8"/>
+  <path d="M0 430 Q260 410 520 430 T800 425" stroke="#6b98b3" stroke-width="8" fill="none"/>
+  <ellipse cx="280" cy="500" rx="90" ry="28" fill="#c96f3a" opacity="0.85"/>
+  <path d="M260 470 Q280 440 300 470" stroke="#e8b53a" stroke-width="6" fill="none"/>
+  <circle cx="660" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="32">Harrison Hot Springs</text>
+</svg>

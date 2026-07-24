@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d5e4e8"/>
+  <path d="M80 420 L260 160 L440 420 Z" fill="#5c7a6b"/>
+  <path d="M260 160 L320 250 L260 250 Z" fill="#f4f7f8"/>
+  <path d="M300 420 L500 180 L700 420 Z" fill="#4a6a5e"/>
+  <path d="M500 180 L560 270 L500 270 Z" fill="#ffffff"/>
+  <rect y="420" width="800" height="180" fill="#5e8258"/>
+  <ellipse cx="400" cy="500" rx="180" ry="40" fill="#4e9bb8"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Golden Ears</text>
+</svg>
