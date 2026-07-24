@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#2b2f4a"/>
+  <rect y="450" width="800" height="150" fill="#20243a"/>
+  <path d="M400 450 C360 380 360 300 400 160 C440 300 440 380 400 450 Z" fill="#4a5580"/>
+  <path d="M400 450 C370 390 370 310 400 190 C430 310 430 390 400 450 Z" fill="#5f6ba0" opacity="0.8"/>
+  <rect x="396" y="120" width="8" height="50" fill="#5f6ba0"/>
+  <circle cx="400" cy="300" r="6" fill="#4fd8e0"/>
+  <circle cx="400" cy="350" r="6" fill="#e4699b"/>
+  <rect x="140" y="300" width="70" height="150" fill="#3a4160"/>
+  <rect x="580" y="280" width="90" height="170" fill="#3a4160"/>
+  <path d="M0 500 Q260 480 520 500 T800 495" stroke="#4fd8e0" stroke-width="6" fill="none" opacity="0.6"/>
+  <circle cx="680" cy="110" r="30" fill="#f2ede2" opacity="0.85"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Guangzhou</text>
+</svg>

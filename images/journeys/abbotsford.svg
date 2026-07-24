@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce9df"/>
+  <path d="M480 300 L620 160 L780 300 Z" fill="#e8eef2"/>
+  <path d="M580 220 L620 160 L660 220 Z" fill="#ffffff"/>
+  <rect y="360" width="800" height="80" fill="#7aa35e"/>
+  <rect y="440" width="800" height="160" fill="#5e8258"/>
+  <path d="M0 400 H800 M0 480 H800" stroke="#6b9450" stroke-width="8"/>
+  <ellipse cx="220" cy="520" rx="90" ry="28" fill="#4e7d9c"/>
+  <circle cx="150" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Abbotsford</text>
+</svg>

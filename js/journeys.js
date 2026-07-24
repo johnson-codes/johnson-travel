@@ -663,6 +663,45 @@ window.JOURNEYS = [
   },
 
   {
+    id: 105,
+    location: "Guangzhou, China",
+    country: "China Mainland",
+    year: 2023,
+    date: "May 4, 2023",
+    status: "visited",
+    latitude: 23.1291,
+    longitude: 113.2644,
+    image: "images/journeys/guangzhou.svg",
+    story: "Morning tea and dim sum carts, Shamian Island's colonial arcades, and the Canton Tower glowing over the Pearl River."
+  },
+
+  {
+    id: 106,
+    location: "Abbotsford, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "July 20, 2024",
+    status: "visited",
+    latitude: 49.0504,
+    longitude: -122.3045,
+    image: "images/journeys/abbotsford.svg",
+    story: "Berry fields stretching to Mount Baker, the airport's floatplane buzz, and a Saturday morning at Mill Lake."
+  },
+
+  {
+    id: 107,
+    location: "Chilliwack, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "July 21, 2024",
+    status: "visited",
+    latitude: 49.1579,
+    longitude: -121.9515,
+    image: "images/journeys/chilliwack.svg",
+    story: "Cultus Lake swims, corn stands along the highway, and the Fraser Valley framed by the Cascade foothills."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",
