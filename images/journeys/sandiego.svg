@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#a8ddef"/>
+  <rect y="380" width="800" height="220" fill="#2f8fb5"/>
+  <path d="M0 380 Q200 360 400 378 T800 372 V600 H0 Z" fill="#2a7fa3" opacity="0.9"/>
+  <path d="M0 500 Q260 470 520 500 T800 490 V600 H0 Z" fill="#f2ddb0"/>
+  <path d="M640 500 L640 360 M640 360 Q580 380 640 405 Q700 380 640 360" stroke="#3f8c4f" stroke-width="10" fill="none"/>
+  <ellipse cx="200" cy="520" rx="60" ry="18" fill="#8a7355"/>
+  <ellipse cx="185" cy="508" rx="22" ry="12" fill="#8a7355"/>
+  <circle cx="150" cy="105" r="40" fill="#f0c35a"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">San Diego</text>
+</svg>

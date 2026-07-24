@@ -1154,5 +1154,29 @@ window.JOURNEYS = [
     longitude: -113.8112,
     image: "images/journeys/reddeer.svg",
     story: "A halfway stop on the Calgary–Edmonton run — Bower Ponds paddleboats and trails along the Red Deer River."
+  },
+  {
+    id: 95,
+    location: "San Diego, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 32.7157,
+    longitude: -117.1611,
+    image: "images/journeys/sandiego.svg",
+    story: "La Jolla sea lions, fish tacos in Old Town, and a lazy afternoon in Balboa Park."
+  },
+  {
+    id: 96,
+    location: "Anchorage, Alaska, USA",
+    country: "USA",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 61.2181,
+    longitude: -149.9003,
+    image: "images/journeys/alaska.svg",
+    story: "Glaciers calving into Prince William Sound, moose downtown, and the midnight sun that never quite sets."
   }
 ];

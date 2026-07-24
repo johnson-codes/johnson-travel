@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#cfe6f0"/>
+  <path d="M60 420 L280 130 L500 420 Z" fill="#7396a8"/>
+  <path d="M280 130 L360 240 L280 240 Z" fill="#ffffff"/>
+  <path d="M420 420 L620 220 L800 420 Z" fill="#5f8296"/>
+  <path d="M620 220 L680 300 L620 300 Z" fill="#ffffff"/>
+  <rect y="420" width="800" height="180" fill="#3f7ba8"/>
+  <path d="M180 420 L260 470 L120 470 Z" fill="#bfe3f0"/>
+  <path d="M520 430 L600 485 L455 485 Z" fill="#bfe3f0"/>
+  <circle cx="680" cy="110" r="36" fill="#f0c35a" opacity="0.85"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Alaska</text>
+</svg>
