@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e5ddc8"/>
+  <path d="M100 460 Q100 240 400 240 Q700 240 700 460 Z" fill="#b3a284"/>
+  <path d="M250 460 Q250 330 400 330 Q550 330 550 460 Z" fill="#8f7f63"/>
+  <ellipse cx="400" cy="395" rx="45" ry="60" fill="#6e6047"/>
+  <circle cx="400" cy="370" r="20" fill="#e5ddc8"/>
+  <path d="M385 395 Q400 415 415 395" stroke="#e5ddc8" stroke-width="6" fill="none"/>
+  <ellipse cx="180" cy="500" rx="26" ry="14" fill="#c96f8a"/>
+  <ellipse cx="620" cy="505" rx="26" ry="14" fill="#c96f8a"/>
+  <rect y="460" width="800" height="140" fill="#a8987a"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Luoyang</text>
+</svg>

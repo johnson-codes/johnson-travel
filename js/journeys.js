@@ -1202,5 +1202,41 @@ window.JOURNEYS = [
     longitude: -109.9167,
     image: "images/journeys/cabo.svg",
     story: "A glass-bottom boat out to El Arco, whale season from the marina, and tacos on Médano Beach."
+  },
+  {
+    id: 99,
+    location: "Kaifeng, China",
+    country: "China Mainland",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 34.7971,
+    longitude: 114.3074,
+    image: "images/journeys/kaifeng.svg",
+    story: "The old Song dynasty capital — Millennium City Park by day and the famous night market stalls after dark."
+  },
+  {
+    id: 100,
+    location: "Luoyang, China",
+    country: "China Mainland",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 34.6197,
+    longitude: 112.454,
+    image: "images/journeys/luoyang.svg",
+    story: "Thousands of carved Buddhas at the Longmen Grottoes and peony season in the city of thirteen dynasties."
+  },
+  {
+    id: 101,
+    location: "Portland, Oregon, USA",
+    country: "USA",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 45.5152,
+    longitude: -122.6784,
+    image: "images/journeys/portland.svg",
+    story: "Powell's Books for a whole morning, food cart pods for lunch, and waterfalls in the Columbia River Gorge."
   }
 ];

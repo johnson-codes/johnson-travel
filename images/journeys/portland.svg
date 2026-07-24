@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d8e4dc"/>
+  <path d="M520 300 L640 180 L780 300 Z" fill="#e8eef2"/>
+  <path d="M600 220 L640 180 L680 220 Z" fill="#ffffff"/>
+  <rect x="120" y="280" width="70" height="160" fill="#7d8f85"/>
+  <rect x="230" y="230" width="90" height="210" fill="#66796f"/>
+  <rect x="360" y="300" width="60" height="140" fill="#7d8f85"/>
+  <rect y="440" width="800" height="160" fill="#4e7d9c"/>
+  <path d="M80 440 Q90 400 100 440 M90 415 H70 M90 415 H110" stroke="#3f5e29" stroke-width="8"/>
+  <path d="M0 490 Q260 470 520 490 T800 485" stroke="#89a7c2" stroke-width="8" fill="none"/>
+  <circle cx="150" cy="110" r="34" fill="#f0c35a" opacity="0.85"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Portland</text>
+</svg>
