@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#c8d8d4"/>
+  <rect y="320" width="800" height="280" fill="#3f6f8c"/>
+  <path d="M0 320 Q200 300 400 318 T800 312 V600 H0 Z" fill="#4a7d8c" opacity="0.9"/>
+  <path d="M0 400 Q130 370 260 400 T520 398 T800 395" stroke="#fffdf9" stroke-width="8" fill="none" opacity="0.65"/>
+  <path d="M0 480 Q260 450 520 480 T800 470 V600 H0 Z" fill="#e8dcc0"/>
+  <path d="M140 500 L200 460 L210 505 Z" fill="#8a7355"/>
+  <path d="M580 490 L640 455 L650 500 Z" fill="#6e5a40"/>
+  <circle cx="150" cy="105" r="34" fill="#f0c35a" opacity="0.85"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="30">Green Point</text>
+</svg>

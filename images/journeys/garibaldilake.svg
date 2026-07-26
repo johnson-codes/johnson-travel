@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d5e8ee"/>
+  <path d="M40 400 L260 160 L480 400 Z" fill="#5c7a8c"/>
+  <path d="M260 160 L330 250 L260 250 Z" fill="#ffffff"/>
+  <path d="M400 400 L600 200 L800 400 Z" fill="#4a6a7a"/>
+  <path d="M600 200 L660 290 L600 290 Z" fill="#ffffff"/>
+  <ellipse cx="400" cy="470" rx="280" ry="70" fill="#2eb8c9"/>
+  <ellipse cx="400" cy="465" rx="220" ry="45" fill="#4fd0df" opacity="0.7"/>
+  <rect y="500" width="800" height="100" fill="#5e8258"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Garibaldi Lake</text>
+</svg>

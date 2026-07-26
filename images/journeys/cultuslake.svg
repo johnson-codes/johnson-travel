@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#d8e8ee"/>
+  <path d="M0 380 L220 240 L440 380 Z" fill="#6b8a6e"/>
+  <path d="M360 380 L580 220 L800 380 Z" fill="#557a5a"/>
+  <rect y="380" width="800" height="220" fill="#4e9bb8"/>
+  <path d="M0 430 Q260 410 520 430 T800 425" stroke="#6b98b3" stroke-width="8" fill="none"/>
+  <ellipse cx="400" cy="500" rx="200" ry="40" fill="#3f8cb5" opacity="0.5"/>
+  <path d="M280 470 L320 430 L330 475 Z" fill="#fffdf9"/>
+  <circle cx="150" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Cultus Lake</text>
+</svg>

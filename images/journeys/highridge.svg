@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dfe8ee"/>
+  <path d="M0 360 L200 260 L400 360 Z" fill="#7a8f6b"/>
+  <path d="M300 360 L520 250 L740 360 Z" fill="#5c7350"/>
+  <rect y="360" width="800" height="240" fill="#3fb8c9"/>
+  <path d="M0 400 Q260 380 520 400 T800 395" stroke="#6fd0de" stroke-width="10" fill="none"/>
+  <path d="M0 480 Q200 460 400 480 T800 470" stroke="#2e9aad" stroke-width="8" fill="none"/>
+  <rect x="340" y="300" width="80" height="40" rx="6" fill="#a8987a" opacity="0.85"/>
+  <circle cx="150" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="30">High Ridge Lookout</text>
+</svg>

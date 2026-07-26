@@ -728,6 +728,32 @@ window.JOURNEYS = [
   },
 
   {
+    id: 112,
+    location: "Shannon Falls, Canada",
+    country: "Canada",
+    year: 2024,
+    date: "June 22, 2024",
+    status: "visited",
+    latitude: 49.6697,
+    longitude: -123.1564,
+    image: "images/journeys/shannonfalls.svg",
+    story: "BC's third-highest waterfall thundering down the granite — mist on your face and the Chief just up the road."
+  },
+
+  {
+    id: 113,
+    location: "Green Point Day Use Area, Canada",
+    country: "Canada",
+    year: 2025,
+    date: "August 9, 2025",
+    status: "visited",
+    latitude: 49.0206,
+    longitude: -125.6711,
+    image: "images/journeys/greenpoint.svg",
+    story: "Long Beach stretching both ways from Pacific Rim — driftwood fires, cold Pacific surf, and gulls riding the wind."
+  },
+
+  {
     id: 66,
     location: "Vancouver, Canada",
     country: "Canada",
@@ -1340,5 +1366,65 @@ window.JOURNEYS = [
     longitude: 108.9398,
     image: "images/journeys/xian.svg",
     story: "The Terracotta Army rank on rank, cycling the old city wall, and hand-pulled biangbiang noodles in the Muslim Quarter."
+  },
+  {
+    id: 110,
+    location: "Sea to Sky Gondola, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 49.6753,
+    longitude: -123.1558,
+    image: "images/journeys/seatosky.svg",
+    story: "Ride above Howe Sound to the Sky Pilot Suspension Bridge, then lunch on the summit deck with the Chief across the valley."
+  },
+  {
+    id: 111,
+    location: "Garibaldi Lake, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 49.9342,
+    longitude: -123.0372,
+    image: "images/journeys/garibaldilake.svg",
+    story: "The steep climb rewarded with that impossible turquoise lake, Panorama Ridge on the skyline, and tent sites under the stars."
+  },
+  {
+    id: 114,
+    location: "Golden, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 51.2986,
+    longitude: -116.9647,
+    image: "images/journeys/golden.svg",
+    story: "Kicking Horse Mountain Resort gondolas, the Columbia River wetlands, and a day trip into Yoho for emerald water and waterfalls."
+  },
+  {
+    id: 115,
+    location: "Cultus Lake, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 49.0544,
+    longitude: -121.9736,
+    image: "images/journeys/cultuslake.svg",
+    story: "A classic Fraser Valley lake day — paddleboards on warm water, the waterslides at the park, and sunset over the mountains."
+  },
+  {
+    id: 116,
+    location: "High Ridge Rd Pullout Lookout, Canada",
+    country: "Canada",
+    year: 2026,
+    date: "Planned for 2026",
+    status: "to-visit",
+    latitude: 50.1855,
+    longitude: -119.3352,
+    image: "images/journeys/highridge.svg",
+    story: "A gravel pullout above Vernon with a wide vista of Kalamalka Lake — turquoise water, orchards, and photo stops on the way to Kekuli Bay."
   }
 ];

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce8f0"/>
+  <path d="M40 420 L260 160 L480 420 Z" fill="#5c7a8c"/>
+  <path d="M260 160 L330 250 L260 250 Z" fill="#ffffff"/>
+  <path d="M380 420 L600 200 L800 420 Z" fill="#4a6a7a"/>
+  <path d="M600 200 L660 290 L600 290 Z" fill="#ffffff"/>
+  <rect y="420" width="800" height="180" fill="#5e8258"/>
+  <path d="M0 480 Q260 455 520 480 T800 470" stroke="#4e7d9c" stroke-width="18" fill="none"/>
+  <circle cx="150" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Golden</text>
+</svg>

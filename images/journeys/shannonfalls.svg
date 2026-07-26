@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#cfe0e8"/>
+  <path d="M0 500 L280 120 L560 500 Z" fill="#5c7a6b"/>
+  <path d="M400 500 L620 220 L800 500 Z" fill="#4a6a5e"/>
+  <path d="M360 140 L390 500 L420 500 L390 140 Z" fill="#bfe8f5"/>
+  <path d="M372 140 L395 500 L408 500 L388 140 Z" fill="#fffdf9" opacity="0.75"/>
+  <ellipse cx="400" cy="520" rx="90" ry="28" fill="#a8d8ec" opacity="0.9"/>
+  <rect y="500" width="800" height="100" fill="#5e8258"/>
+  <circle cx="140" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Shannon Falls</text>
+</svg>
