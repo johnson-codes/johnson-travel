@@ -555,3 +555,56 @@ select {
     min-height: max(20rem, calc(100dvh - 32rem));
   }
 }
+
+/* Phones + iPads: map fills the viewport; hide chrome */
+@media (max-width: 1024px) {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    grid-template-rows: 1fr;
+    min-height: 100dvh;
+    height: 100dvh;
+  }
+
+  body::before {
+    display: none;
+  }
+
+  .masthead,
+  .site-footer {
+    display: none;
+  }
+
+  .map-stage {
+    padding: 0;
+    height: 100dvh;
+    min-height: 100dvh;
+    animation: none;
+  }
+
+  .map-stage > .content-rail {
+    padding-inline: 0;
+    height: 100%;
+  }
+
+  .map-card {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 100%;
+  }
+
+  .toolbar {
+    padding: 0.65rem 0.75rem;
+    gap: 0.5rem 0.75rem;
+  }
+
+  .map-shell {
+    min-height: 0;
+    flex: 1 1 auto;
+  }
+}

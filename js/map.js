@@ -115,6 +115,16 @@ window.JourneyMap = (function () {
     map.addListener("click", () => infoWindow.close());
 
     renderMarkers(journeys);
+
+    // Reflow tiles when the map goes full-viewport (phones / iPads) or rotates
+    const refreshSize = () => {
+      if (!map) return;
+      google.maps.event.trigger(map, "resize");
+    };
+    window.addEventListener("resize", refreshSize);
+    window.addEventListener("orientationchange", refreshSize);
+    requestAnimationFrame(refreshSize);
+
     return true;
   }
 
