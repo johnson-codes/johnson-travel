@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e8e0c4"/>
+  <rect y="380" width="800" height="220" fill="#c4b57a"/>
+  <path d="M0 420 H800 M0 455 H800" stroke="#a89458" stroke-width="8"/>
+  <path d="M0 500 H800" stroke="#8a7a4a" stroke-width="36"/>
+  <path d="M0 500 H800" stroke="#d4c48a" stroke-width="4" stroke-dasharray="28 22"/>
+  <rect x="220" y="250" width="90" height="130" fill="#9a8b6e"/>
+  <rect x="330" y="210" width="120" height="170" fill="#8a7b60"/>
+  <rect x="470" y="270" width="80" height="110" fill="#9a8b6e"/>
+  <path d="M210 250 L275 190 L340 250 Z" fill="#6e6350"/>
+  <path d="M320 210 L390 145 L460 210 Z" fill="#5c5340"/>
+  <path d="M460 270 L510 220 L560 270 Z" fill="#6e6350"/>
+  <rect x="370" y="300" width="40" height="80" fill="#5c5340"/>
+  <path d="M90 380 L90 320 M90 320 Q60 340 90 355 Q120 340 90 320" stroke="#5c7a4f" stroke-width="8" fill="none"/>
+  <path d="M700 380 L700 310 M700 310 Q670 330 700 346 Q730 330 700 310" stroke="#5c7a4f" stroke-width="8" fill="none"/>
+  <circle cx="640" cy="110" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#1a2622" font-family="Georgia, serif" font-size="36">Shangqiaozhen</text>
+</svg>

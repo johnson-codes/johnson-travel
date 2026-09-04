@@ -969,6 +969,18 @@ window.JOURNEYS = [
     image: "images/journeys/lionsbay.svg",
     story: "The steep grind up to Tunnel Bluffs, rewarded with the whole of Howe Sound spread out below."
   },
+  {
+    id: 122,
+    location: "Shangqiaozhen, Henan, China",
+    country: "China Mainland",
+    year: 2008,
+    date: "2008",
+    status: "visited",
+    latitude: 33.847,
+    longitude: 113.941,
+    image: "images/journeys/shangqiaozhen.svg",
+    story: "A dusty stop along G107 in Linying County — wheat fields, roadside stalls, and the quiet of Shangqiao before I knew how far I'd travel."
+  },
 
   // ——— To visit ———
   {
