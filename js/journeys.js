@@ -1498,5 +1498,17 @@ window.JOURNEYS = [
     longitude: 101.6869,
     image: "images/journeys/kualalumpur.svg",
     story: "The Petronas Towers glowing at dusk, nasi lemak before the heat sets in, and a night wander through Jalan Alor's stalls."
+  },
+  {
+    id: 123,
+    location: "Hollywood Walk of Fame, Los Angeles, USA",
+    country: "USA",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 34.1016,
+    longitude: -118.3404,
+    image: "images/journeys/hollywoodwalkoffame.svg",
+    story: "Stars underfoot on Hollywood Boulevard, hands and footprints at TCL Chinese Theatre, and a slow stroll reading names I grew up watching."
   }
 ];

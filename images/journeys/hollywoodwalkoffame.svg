@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#e8b86d"/>
+  <rect y="360" width="800" height="240" fill="#3a3530"/>
+  <rect y="420" width="800" height="180" fill="#c9b08a"/>
+  <rect x="80" y="200" width="140" height="160" fill="#6b4a3a"/>
+  <polygon points="80,200 150,130 220,200" fill="#8b2e2e"/>
+  <rect x="300" y="160" width="90" height="200" fill="#4a5560"/>
+  <rect x="420" y="220" width="70" height="140" fill="#5a6570"/>
+  <rect x="540" y="180" width="110" height="180" fill="#4a5560"/>
+  <rect x="125" y="230" width="28" height="40" fill="#f0d9a0"/>
+  <rect x="167" y="230" width="28" height="40" fill="#f0d9a0"/>
+  <path d="M40 360 L40 280 M40 280 Q10 302 40 318 Q70 302 40 280" stroke="#3d5c32" stroke-width="10" fill="none"/>
+  <path d="M760 360 L760 270 M760 270 Q730 292 760 308 Q790 292 760 270" stroke="#3d5c32" stroke-width="10" fill="none"/>
+  <polygon points="160,460 175,430 190,460 175,450" fill="#d4a017"/>
+  <polygon points="280,470 295,440 310,470 295,460" fill="#d4a017"/>
+  <polygon points="400,455 415,425 430,455 415,445" fill="#d4a017"/>
+  <polygon points="520,468 535,438 550,468 535,458" fill="#d4a017"/>
+  <polygon points="640,462 655,432 670,462 655,452" fill="#d4a017"/>
+  <circle cx="700" cy="100" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Walk of Fame</text>
+</svg>
