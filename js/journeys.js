@@ -971,15 +971,15 @@ window.JOURNEYS = [
   },
   {
     id: 122,
-    location: "Shangqiaozhen, Henan, China",
+    location: "Shangqiao, Henan, China",
     country: "China Mainland",
     year: 2008,
     date: "2008",
     status: "visited",
-    latitude: 33.847,
-    longitude: 113.941,
+    latitude: 33.706,
+    longitude: 113.957,
     image: "images/journeys/shangqiaozhen.svg",
-    story: "A dusty stop along G107 in Linying County — wheat fields, roadside stalls, and the quiet of Shangqiao before I knew how far I'd travel."
+    story: "A dusty stop along G107 north of Luohe — wheat fields, roadside stalls, and the quiet of Shangqiao before I knew how far I'd travel."
   },
 
   // ——— To visit ———
