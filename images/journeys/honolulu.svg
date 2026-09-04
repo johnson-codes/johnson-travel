@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#9ed4f0"/>
+  <circle cx="680" cy="90" r="40" fill="#f0c35a" opacity="0.9"/>
+  <path d="M0 280 L180 160 L280 250 L420 90 L560 240 L800 180 V360 H0 Z" fill="#4a8a5a"/>
+  <path d="M420 90 L480 180 L420 180 Z" fill="#fffdf9"/>
+  <rect y="360" width="800" height="240" fill="#2a8fba"/>
+  <path d="M0 360 Q220 340 420 358 T800 350 V600 H0 Z" fill="#1f7aa3" opacity="0.85"/>
+  <path d="M0 500 Q240 470 500 500 T800 490 V600 H0 Z" fill="#f3e2b8"/>
+  <path d="M140 500 L140 380 M140 400 Q100 430 140 450 Q180 430 140 400" stroke="#2d6b3a" stroke-width="14" fill="none"/>
+  <path d="M220 500 L220 400 M220 418 Q185 445 220 462 Q255 445 220 418" stroke="#2d6b3a" stroke-width="12" fill="none"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">Honolulu</text>
+</svg>

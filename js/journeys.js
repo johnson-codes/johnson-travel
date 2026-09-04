@@ -1510,5 +1510,29 @@ window.JOURNEYS = [
     longitude: -118.3404,
     image: "images/journeys/hollywoodwalkoffame.svg",
     story: "Stars underfoot on Hollywood Boulevard, hands and footprints at TCL Chinese Theatre, and a slow stroll reading names I grew up watching."
+  },
+  {
+    id: 124,
+    location: "Honolulu, Hawaii, USA",
+    country: "USA",
+    year: 2029,
+    date: "Planned for 2029",
+    status: "to-visit",
+    latitude: 21.3069,
+    longitude: -157.8583,
+    image: "images/journeys/honolulu.svg",
+    story: "Waikiki before the crowds, poke after a swim, and a lookout on the Pali with the windward side spread out below."
+  },
+  {
+    id: 125,
+    location: "Nadi, Fiji",
+    country: "Fiji",
+    year: 2029,
+    date: "Planned for 2029",
+    status: "to-visit",
+    latitude: -17.7765,
+    longitude: 177.4356,
+    image: "images/journeys/nadi.svg",
+    story: "The islands appearing on the descent into Nadi, a first swim in that warm water, and a boat day out to the Mamanucas."
   }
 ];

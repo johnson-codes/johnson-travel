@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#7ec8e8"/>
+  <circle cx="140" cy="100" r="38" fill="#f0c35a" opacity="0.9"/>
+  <ellipse cx="400" cy="300" rx="260" ry="90" fill="#3d9a6a"/>
+  <ellipse cx="400" cy="318" rx="220" ry="55" fill="#2f7d56"/>
+  <path d="M280 280 Q320 220 360 275" fill="#4a8a5a"/>
+  <path d="M420 270 Q470 200 520 268" fill="#4a8a5a"/>
+  <rect y="360" width="800" height="240" fill="#1f8ab5"/>
+  <path d="M0 360 Q200 345 400 360 T800 350 V600 H0 Z" fill="#18789e" opacity="0.9"/>
+  <path d="M0 510 Q280 480 560 510 T800 500 V600 H0 Z" fill="#f6e4bc"/>
+  <path d="M620 510 L620 390 M620 410 Q580 440 620 458 Q660 440 620 410" stroke="#2d6b3a" stroke-width="14" fill="none"/>
+  <path d="M700 510 L700 420 M700 438 Q668 462 700 478 Q732 462 700 438" stroke="#2d6b3a" stroke-width="12" fill="none"/>
+  <text x="40" y="565" fill="#1a2622" font-family="Georgia, serif" font-size="36">Nadi</text>
+</svg>
