@@ -1213,10 +1213,10 @@ window.JOURNEYS = [
   },
   {
     id: 87,
-    location: "Chicago, USA",
+    location: "Chicago, Illinois, USA",
     country: "USA",
-    year: 2026,
-    date: "Planned for 2026",
+    year: 2027,
+    date: "Planned for 2027",
     status: "to-visit",
     latitude: 41.8781,
     longitude: -87.6298,
@@ -1426,5 +1426,17 @@ window.JOURNEYS = [
     longitude: -119.3352,
     image: "images/journeys/highridge.svg",
     story: "A gravel pullout above Vernon with a wide vista of Kalamalka Lake — turquoise water, orchards, and photo stops on the way to Kekuli Bay."
+  },
+  {
+    id: 117,
+    location: "Columbus, Indiana, USA",
+    country: "USA",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 39.2014,
+    longitude: -85.9214,
+    image: "images/journeys/columbusindiana.svg",
+    story: "A small-city walk through modernist landmarks — the Miller House, downtown architecture, and lunch on Washington Street."
   }
 ];

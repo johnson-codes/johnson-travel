@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#dce6d8"/>
+  <rect x="80" y="220" width="160" height="230" fill="#6d7f6a"/>
+  <rect x="280" y="160" width="120" height="290" fill="#556657"/>
+  <rect x="440" y="240" width="90" height="210" fill="#6d7f6a"/>
+  <rect x="570" y="190" width="140" height="260" fill="#4a5c4c"/>
+  <rect x="100" y="250" width="120" height="16" fill="#e8efe4"/>
+  <rect x="300" y="190" width="80" height="16" fill="#e8efe4"/>
+  <rect x="590" y="220" width="100" height="16" fill="#e8efe4"/>
+  <rect y="450" width="800" height="150" fill="#8fa37a"/>
+  <path d="M0 470 Q200 450 400 468 T800 460" stroke="#c9d6c0" stroke-width="10" fill="none"/>
+  <circle cx="140" cy="100" r="34" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Columbus, Indiana</text>
+</svg>
