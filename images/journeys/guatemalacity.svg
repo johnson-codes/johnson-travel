@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#7aa3c4"/>
+  <polygon points="0,340 160,180 280,330 420,90 560,320 700,160 800,280 800,600 0,600" fill="#4e6a58"/>
+  <polygon points="420,90 470,200 360,210" fill="#e8eef3"/>
+  <rect y="380" width="800" height="220" fill="#8a5a3a"/>
+  <rect x="80" y="300" width="70" height="80" fill="#c9b89a"/>
+  <rect x="170" y="270" width="90" height="110" fill="#d4a574"/>
+  <rect x="280" y="310" width="60" height="70" fill="#c96a4a"/>
+  <rect x="360" y="250" width="100" height="130" fill="#e08a66" opacity="0.9"/>
+  <rect x="480" y="290" width="80" height="90" fill="#c9b89a"/>
+  <rect x="580" y="260" width="110" height="120" fill="#d4a574" opacity="0.85"/>
+  <circle cx="700" cy="95" r="32" fill="#f0c35a" opacity="0.9"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Guatemala City</text>
+</svg>

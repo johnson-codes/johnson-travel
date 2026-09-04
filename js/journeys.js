@@ -1462,5 +1462,29 @@ window.JOURNEYS = [
     longitude: -123.9401,
     image: "images/journeys/nanaimo.svg",
     story: "The ferry over to Vancouver Island, a harbour walk to The Bastion, and a Nanaimo bar that actually lives up to the name."
+  },
+  {
+    id: 120,
+    location: "Guatemala City, Guatemala",
+    country: "Guatemala",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 14.6349,
+    longitude: -90.5069,
+    image: "images/journeys/guatemalacity.svg",
+    story: "Pepián in the Centro Histórico, a day trip to Antigua's cobblestones, and Pacaya still smoking on the horizon."
+  },
+  {
+    id: 121,
+    location: "Kuala Lumpur, Malaysia",
+    country: "Malaysia",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 3.139,
+    longitude: 101.6869,
+    image: "images/journeys/kualalumpur.svg",
+    story: "The Petronas Towers glowing at dusk, nasi lemak before the heat sets in, and a night wander through Jalan Alor's stalls."
   }
 ];
