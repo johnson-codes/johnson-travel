@@ -1438,5 +1438,29 @@ window.JOURNEYS = [
     longitude: -85.9214,
     image: "images/journeys/columbusindiana.svg",
     story: "A small-city walk through modernist landmarks — the Miller House, downtown architecture, and lunch on Washington Street."
+  },
+  {
+    id: 118,
+    location: "Jasper, Canada",
+    country: "Canada",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 52.8737,
+    longitude: -118.0814,
+    image: "images/journeys/jasper.svg",
+    story: "The last stretch of the Icefields Parkway I haven't driven yet — Maligne Lake, elk on the main street, and a night under those mountain stars."
+  },
+  {
+    id: 119,
+    location: "Nanaimo, Canada",
+    country: "Canada",
+    year: 2027,
+    date: "Planned for 2027",
+    status: "to-visit",
+    latitude: 49.1659,
+    longitude: -123.9401,
+    image: "images/journeys/nanaimo.svg",
+    story: "The ferry over to Vancouver Island, a harbour walk to The Bastion, and a Nanaimo bar that actually lives up to the name."
   }
 ];
