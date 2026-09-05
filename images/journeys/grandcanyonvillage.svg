@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#9ec8e0"/>
+  <circle cx="680" cy="90" r="38" fill="#f0c35a" opacity="0.9"/>
+  <path d="M0 220 L140 190 L280 230 L420 170 L560 220 L800 180 V280 H0 Z" fill="#c46a3a"/>
+  <path d="M0 280 L180 250 L340 300 L500 240 L660 290 L800 250 V360 H0 Z" fill="#a8522e"/>
+  <path d="M0 360 L200 330 L380 380 L560 320 L800 360 V460 H0 Z" fill="#8b3d24"/>
+  <path d="M0 460 L220 430 L400 480 L620 440 L800 470 V600 H0 Z" fill="#6e2f1c"/>
+  <path d="M300 520 Q400 500 500 520" stroke="#3f7aa3" stroke-width="8" fill="none"/>
+  <rect x="90" y="200" width="70" height="36" fill="#6b4a3a"/>
+  <polygon points="90,200 125,172 160,200" fill="#8b2e2e"/>
+  <text x="40" y="560" fill="#fffdf9" font-family="Georgia, serif" font-size="36">Grand Canyon Village</text>
+</svg>

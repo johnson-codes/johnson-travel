@@ -1191,11 +1191,11 @@ window.JOURNEYS = [
     id: 84,
     location: "Yellowstone National Park, USA",
     country: "USA",
-    year: 2026,
-    date: "Planned for 2026",
+    year: 2027,
+    date: "Planned for 2027",
     status: "to-visit",
-    latitude: 44.428,
-    longitude: -110.5885,
+    latitude: 44.4605,
+    longitude: -110.8282,
     image: "images/journeys/yellowstone.svg",
     story: "Old Faithful on schedule, the rainbow rings of Grand Prismatic, and bison jams in the Lamar Valley."
   },
@@ -1534,5 +1534,17 @@ window.JOURNEYS = [
     longitude: 177.4356,
     image: "images/journeys/nadi.svg",
     story: "The islands appearing on the descent into Nadi, a first swim in that warm water, and a boat day out to the Mamanucas."
+  },
+  {
+    id: 126,
+    location: "Grand Canyon Village, Arizona, USA",
+    country: "USA",
+    year: 2028,
+    date: "Planned for 2028",
+    status: "to-visit",
+    latitude: 36.0544,
+    longitude: -112.1401,
+    image: "images/journeys/grandcanyonvillage.svg",
+    story: "First look over the South Rim from the village, sunset from Hopi Point, and a quiet walk past El Tovar as the canyon goes gold."
   }
 ];
